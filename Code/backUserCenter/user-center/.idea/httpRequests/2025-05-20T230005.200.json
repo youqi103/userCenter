@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1924819624797573121,
+    "userRole": 1,
+    "username": null,
+    "userAccount": "youqi",
+    "gender": null,
+    "userPassword": "60bf4c8d5f996e86a58626abf2ffe1e2",
+    "phone": null,
+    "email": null,
+    "status": null,
+    "avatarUrl": null,
+    "createTime": "2025-05-20T13:28:54.000+00:00",
+    "updateTime": "2025-05-20T13:44:22.000+00:00",
+    "isDelete": 0
+  },
+  {
+    "id": 1924842522744713218,
+    "userRole": 0,
+    "username": null,
+    "userAccount": "goyouqi",
+    "gender": null,
+    "userPassword": "463d90da0d603a5febdd6ff83362c12d",
+    "phone": null,
+    "email": null,
+    "status": null,
+    "avatarUrl": null,
+    "createTime": "2025-05-20T14:59:53.000+00:00",
+    "updateTime": "2025-05-20T14:59:53.000+00:00",
+    "isDelete": 0
+  }
+]

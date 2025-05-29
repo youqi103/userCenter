@@ -1,0 +1,678 @@
+GET http://localhost:8080/api/user/current
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=A91B6359FD2AE5442BDE00A744E3C8D1; JSESSIONID=7C48A7C817D0FA143B532EFD4529FCC2
+content-length: 0
+
+###
+
+POST http://localhost:8080/api/user/current
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=7C48A7C817D0FA143B532EFD4529FCC2
+content-length: 0
+
+###
+
+GET http://localhost:8080/user/search
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=7C48A7C817D0FA143B532EFD4529FCC2
+content-length: 0
+
+<> 2025-05-20T230115.200.json
+
+###
+
+POST http://localhost:8080/user/login
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Content-Length: 53
+Cookie: JSESSIONID=2F1D8BBA225E16DDBB5AD57356EDE6B1; JSESSIONID=7C48A7C817D0FA143B532EFD4529FCC2
+
+{
+  "userAccount": "youqi",
+  "userPassword": "123"
+}
+
+<> 2025-05-20T230101.200.json
+
+###
+
+GET http://localhost:8080/user/search
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=7C48A7C817D0FA143B532EFD4529FCC2
+content-length: 0
+
+<> 2025-05-20T230036.500.json
+
+###
+
+POST http://localhost:8080/user/login
+Content-Type: application/json
+Content-Length: 45
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=7C48A7C817D0FA143B532EFD4529FCC2
+
+{
+  "userAccount": "",
+  "userPassword": ""
+}
+
+###
+
+GET http://localhost:8080/user/search
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=7C48A7C817D0FA143B532EFD4529FCC2
+content-length: 0
+
+<> 2025-05-20T230029.500.json
+
+###
+
+GET http://localhost:8080/user/search
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=7C48A7C817D0FA143B532EFD4529FCC2
+content-length: 0
+
+<> 2025-05-20T230022.500.json
+
+###
+
+GET http://localhost:8080/user/search
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=7C48A7C817D0FA143B532EFD4529FCC2
+content-length: 0
+
+<> 2025-05-20T230005.200.json
+
+###
+
+GET http://localhost:8080/user/search
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=7C48A7C817D0FA143B532EFD4529FCC2
+content-length: 0
+
+<> 2025-05-20T225812.200.json
+
+###
+
+GET http://localhost:8080/user/search
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=7C48A7C817D0FA143B532EFD4529FCC2
+content-length: 0
+
+<> 2025-05-20T225802.200.json
+
+###
+
+POST http://localhost:8080/user/login
+Content-Type: application/json
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Content-Length: 53
+Cookie: JSESSIONID=7C48A7C817D0FA143B532EFD4529FCC2
+
+{
+  "userAccount": "youqi",
+  "userPassword": "123"
+}
+
+<> 2025-05-20T225742.200.json
+
+###
+
+POST http://localhost:8080/user/login
+Content-Type: application/json
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Content-Length: 53
+Cookie: JSESSIONID=61471E115E8A7C3BDAC65E1BE37087CD
+
+{
+  "userAccount": "youqi",
+  "userPassword": "123"
+}
+
+<> 2025-05-20T225738.200.json
+
+###
+
+POST http://localhost:9090/user/login
+Content-Type: application/json
+Content-Length: 45
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=61471E115E8A7C3BDAC65E1BE37087CD
+
+{
+  "userAccount": "",
+  "userPassword": ""
+}
+
+###
+
+POST http://localhost:8080/user/login
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=61471E115E8A7C3BDAC65E1BE37087CD
+content-length: 0
+
+<> 2025-05-20T225505.400.json
+
+###
+
+POST http://localhost:8080/user/login
+Content-Type: application/json
+Content-Length: 53
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=61471E115E8A7C3BDAC65E1BE37087CD
+
+{
+  "userAccount": "youqi",
+  "userPassword": "123"
+}
+
+<> 2025-05-20T222737.200.json
+
+###
+
+GET http://localhost:8080/user/search
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=246DFFF74741B547838BE778B9D7C03A
+content-length: 0
+
+<> 2025-05-20T222052.500.json
+
+###
+
+GET http://localhost:8080/user/search
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=246DFFF74741B547838BE778B9D7C03A
+content-length: 0
+
+<> 2025-05-20T214545.500.json
+
+###
+
+GET http://localhost:8080/user/search
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=880E8B16203CB7C9D912EA722969801A
+content-length: 0
+
+<> 2025-05-20T214337.500.json
+
+###
+
+GET http://localhost:8080/user/search
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=880E8B16203CB7C9D912EA722969801A
+content-length: 0
+
+<> 2025-05-20T213606.500.json
+
+###
+
+POST http://localhost:8080/user/login
+Content-Type: application/json
+Content-Length: 45
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=880E8B16203CB7C9D912EA722969801A
+
+{
+  "userAccount": "",
+  "userPassword": ""
+}
+
+###
+
+POST http://localhost:8080/user/login
+Content-Type: application/json
+Content-Length: 45
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=880E8B16203CB7C9D912EA722969801A
+
+{
+  "userAccount": "",
+  "userPassword": ""
+}
+
+###
+
+POST http://localhost:8080/user/delete
+Content-Type: application/json
+Content-Length: 1
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=B68257DE23DA3D8C78C75A0579475C7E
+
+0
+
+<> 2025-05-20T212400.500.json
+
+###
+
+POST http://localhost:8080/user/delete
+Content-Type: application/json
+Content-Length: 1
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=B68257DE23DA3D8C78C75A0579475C7E
+
+0
+
+<> 2025-05-20T175032.500.json
+
+###
+
+GET http://localhost:8080/user/search
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=B68257DE23DA3D8C78C75A0579475C7E
+content-length: 0
+
+<> 2025-05-20T175012.500.json
+
+###
+
+GET http://localhost:8080/user/search
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=BD9B3BF1E854170B743B0AB6C0861221
+content-length: 0
+
+<> 2025-05-20T174710.500.json
+
+###
+
+POST http://localhost:8080/user/delete
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=BD9B3BF1E854170B743B0AB6C0861221
+content-length: 0
+
+<> 2025-05-20T174634.400.json
+
+###
+
+POST http://localhost:8080/user/login
+Content-Type: application/json
+Content-Length: 53
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=720E852395E2E6D6BF705D1A7F4404F7
+
+{
+  "userAccount": "youqi",
+  "userPassword": "123"
+}
+
+<> 2025-05-20T174521.200.json
+
+###
+
+POST http://localhost:8080/user/login
+Content-Type: application/json
+Content-Length: 53
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=720E852395E2E6D6BF705D1A7F4404F7
+
+{
+  "userAccount": "youqi",
+  "userPassword": "123"
+}
+
+###
+
+POST http://localhost:8080/user/login
+Content-Type: application/json
+Content-Length: 53
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=720E852395E2E6D6BF705D1A7F4404F7
+
+{
+  "userAccount": "youqi",
+  "userPassword": "123"
+}
+
+###
+
+POST http://localhost:8080/user/login
+Content-Type: application/json
+Content-Length: 53
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=720E852395E2E6D6BF705D1A7F4404F7
+
+{
+  "userAccount": "youqi",
+  "userPassword": "123"
+}
+
+###
+
+POST http://localhost:8080/user/login
+Content-Type: application/json
+Content-Length: 53
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=720E852395E2E6D6BF705D1A7F4404F7
+
+{
+  "userAccount": "youqi",
+  "userPassword": "123"
+}
+
+###
+
+POST http://localhost:8080/user/login
+Content-Type: application/json
+Content-Length: 53
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=720E852395E2E6D6BF705D1A7F4404F7
+
+{
+  "userAccount": "youqi",
+  "userPassword": "123"
+}
+
+###
+
+POST http://localhost:8080/user/login
+Content-Type: application/json
+Content-Length: 53
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=C07033B78C6FC5B7D7452DF9A177DEE3
+
+{
+  "userAccount": "youqi",
+  "userPassword": "123"
+}
+
+<> 2025-05-17T224952.200.json
+
+###
+
+POST http://localhost:8080/user/login
+Content-Type: application/json
+Content-Length: 53
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=98394293AADCED44707E675E1142B93A
+
+{
+  "userAccount": "youqi",
+  "userPassword": "123"
+}
+
+<> 2025-05-17T223720.200.json
+
+###
+
+POST http://localhost:9090/user/login
+Content-Type: application/json
+Content-Length: 49
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=98394293AADCED44707E675E1142B93A
+
+{
+"userAccount": "youqi",
+"userPassword": "123"
+}
+
+###
+
+GET http://localhost:9090/test/ok
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=98394293AADCED44707E675E1142B93A
+content-length: 0
+
+###
+
+GET http://localhost:9090/test/ok
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=98394293AADCED44707E675E1142B93A
+content-length: 0
+
+###
+
+POST http://localhost:9090/user/login
+Content-Type: application/json
+Content-Length: 49
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=98394293AADCED44707E675E1142B93A
+
+{
+"userAccount": "youqi",
+"userPassword": "123"
+}
+
+###
+
+POST http://localhost:9090/user/login
+Content-Type: application/json
+Content-Length: 49
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=98394293AADCED44707E675E1142B93A
+
+{
+"userAccount": "youqi",
+"userPassword": "123"
+}
+
+###
+
+POST http://localhost:8080/user/login
+Content-Type: application/json
+Content-Length: 49
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=98394293AADCED44707E675E1142B93A
+
+{
+"userAccount": "youqi",
+"userPassword": "123"
+}
+
+###
+
+POST http://localhost:8080/user/login
+Content-Type: application/json
+Content-Length: 49
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=98394293AADCED44707E675E1142B93A
+
+{
+"userAccount": "youqi",
+"userPassword": "123"
+}
+
+###
+
+POST http://localhost:8080/user/login
+Content-Type: application/json
+Content-Length: 53
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=8075CEECC1F5949CE3BB978BF48E85F6
+
+{
+  "userAccount": "youqi",
+  "userPassword": "123"
+}
+
+###
+
+GET http://localhost:8080/user/login
+Accept: application/json
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Cookie: JSESSIONID=8075CEECC1F5949CE3BB978BF48E85F6
+content-length: 53
+
+{
+  "userAccount": "youqi",
+  "userPassword": "123"
+}
+
+###
+
+POST http://localhost:8080/user/login
+Content-Type: application/json
+Content-Length: 53
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=2F1D8BBA225E16DDBB5AD57356EDE6B1
+
+{
+  "userAccount": "youqi",
+  "userPassword": "123"
+}
+
+###
+
+POST http://localhost:8080/user/login
+Content-Type: application/json
+Content-Length: 53
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=2F1D8BBA225E16DDBB5AD57356EDE6B1
+
+{
+  "userAccount": "youqi",
+  "userPassword": "123"
+}
+
+###
+
+POST http://localhost:8080/user/login
+Content-Type: application/json
+Content-Length: 53
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=2F1D8BBA225E16DDBB5AD57356EDE6B1
+
+{
+  "userAccount": "youqi",
+  "userPassword": "123"
+}
+
+###
+
+POST http://localhost:8080/user/login
+Content-Type: application/json
+Content-Length: 53
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=2F1D8BBA225E16DDBB5AD57356EDE6B1
+
+{
+  "userAccount": "youqi",
+  "userPassword": "123"
+}
+
+###
+
+POST http://localhost:8080/user/login
+Content-Type: application/json
+Content-Length: 53
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=2F1D8BBA225E16DDBB5AD57356EDE6B1
+
+{
+  "userAccount": "youqi",
+  "userPassword": "123"
+}
+
+###
+
+POST http://localhost:8080/api/user/login
+Content-Type: application/json
+Content-Length: 53
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.7
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: JSESSIONID=2F1D8BBA225E16DDBB5AD57356EDE6B1
+
+{
+  "userAccount": "youqi",
+  "userPassword": "123"
+}
+
+###
+
