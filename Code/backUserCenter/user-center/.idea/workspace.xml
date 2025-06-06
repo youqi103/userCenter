@@ -6,6 +6,33 @@
   <component name="ChangeListManager">
     <list default="true" id="2e529c77-f599-46fb-ad95-ff0daceff5ba" name="Changes" comment="第一次提交">
       <changelist_data name="youqi" email="" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/youqi/usercenter/common/ErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/youqi/usercenter/exception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/youqi/usercenter/exception/GloabalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8087687b-baf3-41fc-8092-ff2679de7521.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8087687b-baf3-41fc-8092-ff2679de7521.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/youqi/usercenter/common/BaseResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/youqi/usercenter/common/BaseResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/youqi/usercenter/common/ResultUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/youqi/usercenter/common/ResultUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/youqi/usercenter/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/youqi/usercenter/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/youqi/usercenter/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/youqi/usercenter/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/youqi/usercenter/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/youqi/usercenter/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/youqi/usercenter/service/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/youqi/usercenter/service/UserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/youqi/usercenter/common/BaseResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/youqi/usercenter/common/BaseResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/youqi/usercenter/common/ResultUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/youqi/usercenter/common/ResultUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/youqi/usercenter/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/youqi/usercenter/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/youqi/usercenter/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/youqi/usercenter/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/youqi/usercenter/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/youqi/usercenter/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/youqi/usercenter/service/UserServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/youqi/usercenter/service/UserServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontedUserCenter/config/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontedUserCenter/config/routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontedUserCenter/src/.umi/appData.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontedUserCenter/src/.umi/appData.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontedUserCenter/src/app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontedUserCenter/src/app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontedUserCenter/src/pages/Admin/UserManage/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontedUserCenter/src/pages/Admin/UserManage/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontedUserCenter/src/pages/User/Login/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontedUserCenter/src/pages/User/Login/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontedUserCenter/src/pages/User/Register/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontedUserCenter/src/pages/User/Register/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontedUserCenter/src/services/ant-design-pro/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontedUserCenter/src/services/ant-design-pro/api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontedUserCenter/src/services/ant-design-pro/typings.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontedUserCenter/src/services/ant-design-pro/typings.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontedUserCenter/tests/setupTests.jsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,18 +59,23 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "youqi103"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;youqi103&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:youqi103/userCenter.git",
-    "accountId": "0ec0cf91-2c84-462a-ae36-9bd43d74faef"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/youqi103/userCenter.git&quot;,
+    &quot;accountId&quot;: &quot;0ec0cf91-2c84-462a-ae36-9bd43d74faef&quot;
   }
-}]]></component>
+}</component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="UserServiceTest.userRegister" />
+    </enabled-run-configurations>
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -57,63 +89,63 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.UserCenterApplication.executor": "Debug",
-    "HTTP Request.All in rest-api_4.executor": "Run",
-    "HTTP Request.generated-requests | #1.executor": "Run",
-    "HTTP Request.generated-requests | #2.executor": "Run",
-    "HTTP Request.generated-requests | #3.executor": "Run",
-    "HTTP Request.generated-requests | #4.executor": "Run",
-    "HTTP Request.generated-requests | #5.executor": "Run",
-    "HTTP Request.generated-requests | #6.executor": "Run",
-    "HTTP Request.generated-requests | #7.executor": "Run",
-    "HTTP Request.http-requests-log | #47.executor": "Run",
-    "HTTP Request.http-requests-log | #48.executor": "Run",
-    "HTTP Request.rest-api | #1.executor": "Run",
-    "HTTP Request.rest-api_1 | #1.executor": "Run",
-    "HTTP Request.rest-api_2 | #1.executor": "Run",
-    "HTTP Request.rest-api_3 | #1.executor": "Run",
-    "HTTP Request.rest-api_4 | #1.executor": "Run",
-    "JUnit.SampleTest.executor": "Run",
-    "JUnit.SampleTest.testSelect.executor": "Run",
-    "JUnit.UserCenterApplicationTests.executor": "Debug",
-    "JUnit.UserServiceTest.executor": "Run",
-    "JUnit.UserServiceTest.testAddUser.executor": "Run",
-    "JUnit.UserServiceTest.userRegister.executor": "Debug",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.UserCenterApplication.executor": "Debug",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/JAVACode/homework2",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.UserCenterApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;HTTP Request.All in rest-api_4.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #3.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #4.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #5.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #6.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #7.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.http-requests-log | #47.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.http-requests-log | #48.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.rest-api | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.rest-api_1 | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.rest-api_2 | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.rest-api_3 | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.rest-api_4 | #1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SampleTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SampleTest.testSelect.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserCenterApplicationTests.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.UserServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiceTest.testAddUser.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiceTest.userRegister.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.UserCenterApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/JAVACode/homework2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ],
-    "com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect": [
-      "MySQL"
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect&quot;: [
+      &quot;MySQL&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -131,7 +163,7 @@
       <recent name="com.youqi.usercenter.model.domain.request" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserServiceTest.userRegister">
+  <component name="RunManager" selected="Application.UserCenterApplication">
     <configuration name="UserCenterApplication" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.youqi.usercenter.UserCenterApplication" />
       <module name="user-center" />
@@ -231,6 +263,20 @@
       <workItem from="1748441858469" duration="1279000" />
       <workItem from="1748444973642" duration="1950000" />
       <workItem from="1748483840657" duration="1930000" />
+      <workItem from="1748490095056" duration="228000" />
+      <workItem from="1748501215415" duration="294000" />
+      <workItem from="1748505084026" duration="480000" />
+      <workItem from="1748505613014" duration="2151000" />
+      <workItem from="1748508460086" duration="364000" />
+      <workItem from="1748508837027" duration="23000" />
+      <workItem from="1748509762917" duration="655000" />
+      <workItem from="1748613225322" duration="680000" />
+      <workItem from="1748916153916" duration="1850000" />
+      <workItem from="1748932994746" duration="1517000" />
+      <workItem from="1748937606130" duration="138000" />
+      <workItem from="1748938740760" duration="4617000" />
+      <workItem from="1748944863712" duration="52000" />
+      <workItem from="1749193158262" duration="652000" />
     </task>
     <servers />
   </component>
@@ -249,6 +295,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
     <MESSAGE value="第一次提交" />
     <option name="LAST_COMMIT_MESSAGE" value="第一次提交" />
   </component>
@@ -257,13 +306,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/youqi/usercenter/service/impl/UserServiceImpl.java</url>
-          <line>63</line>
+          <line>38</line>
           <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/youqi/usercenter/service/UserServiceTest.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

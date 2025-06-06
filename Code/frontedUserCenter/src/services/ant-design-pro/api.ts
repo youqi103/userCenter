@@ -1,12 +1,9 @@
 // @ts-ignore
 /* eslint-disable */
-import { request } from '@umijs/max';
-
+import request from '@/plugin/GlobalRequest';
 /** 获取当前的用户 GET /api/user/current */
 export async function currentUser(options?: { [key: string]: any }) {
-  return request<{
-    data: API.CurrentUser;
-  }>('/api/user/current', {
+  return request <API.CurrentUser>('/api/user/current', {
     method: 'GET',
     ...(options || {}),
   });
@@ -20,7 +17,7 @@ export async function outLogin(options?: { [key: string]: any }) {
   });
 }
 
-/** 登录接口 POST /api/login/account */
+/** 登录接口 POST /api/user/login */
 export async function login(body: API.RegisterParams, options?: { [key: string]: any }) {
   return request<API.LoginResult>('/api/user/login', {
     method: 'POST',
@@ -34,7 +31,7 @@ export async function login(body: API.RegisterParams, options?: { [key: string]:
 
 /** 注册接口 POST /api/user/register */
 export async function register(body: API.LoginParams, options?: { [key: string]: any }) {
-  return request<API.RegistertResult>('/api/user/register', {
+  return request<API.LoginResult>('/api/user/register', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -43,6 +40,7 @@ export async function register(body: API.LoginParams, options?: { [key: string]:
     ...(options || {}),
   });
 }
+
 
 /** 此处后端没有提供注释 GET /api/notices */
 export async function getNotices(options?: { [key: string]: any }) {

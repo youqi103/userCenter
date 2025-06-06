@@ -1,16 +1,15 @@
-import { Footer, Question, SelectLang, AvatarDropdown, AvatarName } from '@/components';
+import { AvatarDropdown, AvatarName, Footer, Question, SelectLang } from '@/components';
+import { currentUser as queryCurrentUser } from '@/services/ant-design-pro/api';
 import { LinkOutlined } from '@ant-design/icons';
 import type { Settings as LayoutSettings } from '@ant-design/pro-components';
 import { SettingDrawer } from '@ant-design/pro-components';
 import type { RunTimeLayoutConfig } from '@umijs/max';
 import { history, Link } from '@umijs/max';
-import defaultSettings from '../config/defaultSettings';
-import { errorConfig } from './requestErrorConfig';
-import { currentUser as queryCurrentUser } from '@/services/ant-design-pro/api';
-import React from 'react';
 import { RequestConfig } from 'umi';
+import defaultSettings from '../config/defaultSettings';
 const isDev = process.env.NODE_ENV === 'development';
 const loginPath = '/user/login';
+// 无需登录的页面
 const NOT_NEED_LOGIN_PATH = [loginPath, '/user/register'];
 /**
  * @see  https://umijs.org/zh-CN/plugins/plugin-initial-state
@@ -23,30 +22,30 @@ export async function getInitialState(): Promise<{
 }> {
   const fetchUserInfo = async () => {
     try {
-      const msg = await queryCurrentUser({
-        skipErrorHandler: true,
-      });
-      return msg.data;
+      return await queryCurrentUser();
     } catch (error) {
       history.push(loginPath);
     }
     return undefined;
   };
-  // 如果不是登录页面，执行
+  // 如果是登录页面，不执行
   const { location } = history;
+
+  alert(process.env.NODE_ENV);
   if (NOT_NEED_LOGIN_PATH.includes(history.location.pathname)) {
-      
-    return {
-      fetchUserInfo,
-      settings: defaultSettings as Partial<LayoutSettings>,
-    };
-  }
-  const currentUser = await fetchUserInfo();
-  return {
+     return {
     fetchUserInfo,
-    currentUser,
     settings: defaultSettings as Partial<LayoutSettings>,
   };
+  }
+ const currentUser = await fetchUserInfo();
+    return {
+      fetchUserInfo,
+      currentUser,
+      settings: defaultSettings as Partial<LayoutSettings>,
+    };
+ 
+
 }
 
 // ProLayout 支持的api https://procomponents.ant.design/components/layout
@@ -66,9 +65,12 @@ export const layout: RunTimeLayoutConfig = ({ initialState, setInitialState }) =
     footerRender: () => <Footer />,
     onPageChange: () => {
       const { location } = history;
+      if (NOT_NEED_LOGIN_PATH.includes(location.pathname)) {
+        return;
+      }
       // 如果没有登录，重定向到 login
       if (!initialState?.currentUser && location.pathname !== loginPath) {
-        history.push(loginPath);
+        history.push(`${loginPath}?redirect=${location.pathname}`);
       }
     },
     bgLayoutImgList: [

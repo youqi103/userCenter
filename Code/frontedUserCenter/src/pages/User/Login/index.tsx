@@ -90,12 +90,11 @@ const LoginMessage: React.FC<{
 };
 
 const Login: React.FC = () => {
-  const [userLoginState, setUserLoginState] = useState<API.LoginResult>({});
+  const [setUserLoginState] = useState<API.LoginResult>({});
   const [type, setType] = useState<string>('account');
   const { initialState, setInitialState } = useModel('@@initialState');
   const { styles } = useStyles();
-  const intl = useIntl();
-  console.log("请输入用户名");
+  console.log('请输入用户名');
   const fetchUserInfo = async () => {
     const userInfo = await initialState?.fetchUserInfo?.();
     if (userInfo) {
@@ -112,9 +111,12 @@ const Login: React.FC = () => {
     try {
       // 登录
       const user = await login({ ...values, type });
-      if (user.code == 200&&user.data!=null) {
+      if (user!==null) {
         message.success('登录成功！');
-        await fetchUserInfo();
+        const test = await fetchUserInfo();
+        console.log(test);
+        
+        // 在登录成功后打印用户信息
         const urlParams = new URL(window.location.href).searchParams;
         history.push(urlParams.get('redirect') || '/');
         return;

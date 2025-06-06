@@ -3,7 +3,9 @@ package com.youqi.usercenter.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.youqi.usercenter.common.BaseResponse;
+import com.youqi.usercenter.common.ErrorCode;
 import com.youqi.usercenter.common.ResultUtils;
+import com.youqi.usercenter.exception.BusinessException;
 import com.youqi.usercenter.model.domain.User;
 import com.youqi.usercenter.model.domain.request.UserLoginRequest;
 import com.youqi.usercenter.model.domain.request.UserRegisterRequest;
@@ -33,14 +35,14 @@ public class UserController {
      @PostMapping("/register")
     public BaseResponse<Long> userRegister( @RequestBody  UserRegisterRequest userRegisterRequest){
          if(userRegisterRequest == null){
-             return null;
+           throw new BusinessException(ErrorCode.PARAMS_ERROR,"请求为空");
          }
          String userAccount = userRegisterRequest.getUserAccount();
          String userPassword = userRegisterRequest.getUserPassword();
          String checkPassword = userRegisterRequest.getCheckPassword();
          String planetCode = userRegisterRequest.getPlanetCode();
          if(StringUtils.isAnyBlank(userAccount,userPassword,checkPassword,planetCode)){
-             return null;
+             throw new BusinessException(ErrorCode.PARAMS_ERROR,"数据为空");
          }
         long result= userService.userRegister(userAccount, userPassword, checkPassword,planetCode);
         return ResultUtils.success(result);
@@ -48,22 +50,23 @@ public class UserController {
     @PostMapping("/login")
     public BaseResponse<User> userLogin(@RequestBody UserLoginRequest userLoginRequest, HttpServletRequest request) {
          if (userLoginRequest == null) {
-            return null;
+           throw new BusinessException(ErrorCode.NULL_ERROR,"请求为空");
         }
         String userAccount = userLoginRequest.getUserAccount();
         String userPassword = userLoginRequest.getUserPassword();
 
         if (StringUtils.isAnyBlank(userAccount, userPassword)) {
-            return null;
+           throw new BusinessException(ErrorCode.NULL_ERROR,"数据为空");
         }
        User user= userService.userLogin(userAccount, userPassword, request);
+
         return ResultUtils.success(user);
     }
 
     @PostMapping("/logout")
     public BaseResponse<Integer> userLogin(HttpServletRequest request) {
         if (request == null) {
-            return null;
+          throw new BusinessException(ErrorCode.NULL_ERROR,"请求为空");
         }
         int i = userService.userLogout(request);
         return ResultUtils.success(i);
@@ -74,7 +77,7 @@ public class UserController {
         Object userObject = request.getSession().getAttribute(USER_LOGIN_STATE);
         User currentUser = (User)userObject;
         if(currentUser == null){
-            return null;
+           throw new BusinessException(ErrorCode.NOT_LOGIN_ERROR);
         }
         long userId = currentUser.getId();
         //TODO 校验用户是否合法
@@ -87,7 +90,7 @@ public class UserController {
     public BaseResponse<List<User>> searchUsers(String username,HttpServletRequest request){
        if(!isAdmin(request)){
 //           return new ArrayList<>();
-           return null;
+         throw new BusinessException(ErrorCode.NO_AUTH_ERROR,"您不是管理员，无法搜索用户");
        }
         QueryWrapper<User>  queryWrapper= new QueryWrapper<>();
          if(StringUtils.isNotBlank(username)){
@@ -103,10 +106,10 @@ public class UserController {
     @PostMapping("/delete")
     public BaseResponse<Boolean> deleteUser(@RequestBody long id, HttpServletRequest request){
         if(!isAdmin(request)){
-            return null;
+            throw new BusinessException(ErrorCode.NO_AUTH_ERROR,"您不是管理员，无法删除");
         }
         if(id<=0){
-            return null;
+            throw new BusinessException(ErrorCode.PARAMS_ERROR,"id不能小于0");
         }
         boolean b = userService.removeById(id);
         return ResultUtils.success(b);
@@ -116,7 +119,7 @@ public class UserController {
         Object userObject = request.getSession().getAttribute(USER_LOGIN_STATE);
         User user = (User)userObject;
         // 在获取userObject的地方检查
-       return user.getUserRole() == ADMIN_USER && user != null;
+       return user.getUserRole() == ADMIN_USER ;
     }
 
 }

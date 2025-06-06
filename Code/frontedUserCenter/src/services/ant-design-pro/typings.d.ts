@@ -3,24 +3,24 @@
 
 declare namespace API {
   type CurrentUser = {
-
     id: Long;
-    userRole:number;
+    userRole: number;
     username: string;
-    userAccount : string;
-    gender ?:string;
+    userAccount: string;
+    gender?: string;
     phone?: string;
     email?: string;
     status: number;
-    avatarUrl ?: string;
+    avatarUrl?: string;
     createTime: Date;
+    planetCode: number;
   };
-  interface SearchUserResponse {
+  type BaseResponse = {
     code: number;
     data: CurrentUser[];
     message: string;
+    description: string;
   }
-
 
   type LoginResult = {
     code: number;
@@ -32,7 +32,6 @@ declare namespace API {
   };
 
   type RegistertResult = number;
-
 
   type PageParams = {
     current?: number;
@@ -74,6 +73,7 @@ declare namespace API {
   };
   type RegisterParams = {
     userAccount?: string;
+    planetCode?: number;
     userPassword?: string;
     checkPassword?: string;
     type?: string;
@@ -93,7 +93,11 @@ declare namespace API {
     total?: number;
     success?: boolean;
   };
-
+  type SearchUserResponse = {
+    code: number;
+    data: CurrentUser[];
+    message: string;
+  }
   type NoticeIconItemType = 'notification' | 'message' | 'event';
 
   type NoticeIconItem = {

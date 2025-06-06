@@ -12,7 +12,7 @@ import {
   LoginForm,
   ProFormText,
 } from '@ant-design/pro-components';
-import { FormattedMessage, history, SelectLang, useIntl, useModel, Helmet } from '@umijs/max';
+import {  history, SelectLang, useIntl, useModel, Helmet } from '@umijs/max';
 import { Alert, message, Tabs } from 'antd';
 import Settings from '../../../../config/defaultSettings';
 import React, { useState } from 'react';
@@ -117,22 +117,18 @@ const Register: React.FC = () => {
       message.error('两次输入的密码不一致！');
       return;
     }
-    try {
-      // 注册
-      const id = await register(values);
-      if (id >= 0) {
+
+    const id = await register(values);
+    console.log(id);
+    
+      // 后端 code 判断，成功时跳转
+      if (id!=null) {
         message.success('注册成功！');
-        // await fetchUserInfo();
         const urlParams = new URL(window.location.href).searchParams;
         history.push(urlParams.get('redirect') || '/');
         return;
-      } else {
-        throw new Error(`regiser failed, id: ${id}`);
       }
-    } catch (error) {
-      console.log(error);
-      message.error('注册失败，请重试！');
-    }
+    
   };
   const { status, type: loginType } = userLoginState;
 
@@ -200,6 +196,20 @@ const Register: React.FC = () => {
                   {
                     required: true,
                     message: '请输入账号!',
+                  },
+                ]}
+              />
+              <ProFormText
+                name="planetCode"
+                fieldProps={{
+                  size: 'large',
+                  prefix: <UserOutlined />,
+                }}
+                placeholder="请输入编号"
+                rules={[
+                  {
+                    required: true,
+                    message: '请输入编号!',
                   },
                 ]}
               />

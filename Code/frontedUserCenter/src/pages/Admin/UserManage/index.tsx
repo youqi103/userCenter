@@ -1,7 +1,6 @@
 import { searchUser } from '@/services/ant-design-pro/api';
 import type { ActionType, ProColumns } from '@ant-design/pro-components';
 import { ProTable } from '@ant-design/pro-components';
-import { useIntl } from '@umijs/max';
 import { useRef } from 'react';
 export const waitTimePromise = async (time: number = 100) => {
   return new Promise((resolve) => {
@@ -40,11 +39,16 @@ const columns: ProColumns<API.CurrentUser>[] = [
     copyable: true,
   },
   {
+    title: '用户编号',
+    dataIndex: 'planetCode',
+    copyable: true,
+  },
+  {
     title: '性别',
     dataIndex: 'gender',
     valueEnum: {
-      1: { text: '男'},
-      0: { text: '女'},
+      1: { text: '男' },
+      0: { text: '女' },
     },
   },
   {
@@ -90,6 +94,7 @@ const columns: ProColumns<API.CurrentUser>[] = [
 
 export default () => {
   const actionRef = useRef<ActionType>();
+  
   return (
     <ProTable<API.CurrentUser>
       columns={columns}
@@ -97,9 +102,9 @@ export default () => {
       cardBordered
       request={async (params, sort, filter) => {
         console.log(sort, filter);
-        const userList: API.SearchUserResponse= await searchUser();
+        const userList: API.BaseResponse = await searchUser();
         return {
-          data: userList.data
+          data: userList
         }
       }}
       editable={{

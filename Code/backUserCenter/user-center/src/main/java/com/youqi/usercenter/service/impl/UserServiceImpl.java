@@ -2,6 +2,8 @@ package com.youqi.usercenter.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.youqi.usercenter.common.ErrorCode;
+import com.youqi.usercenter.exception.BusinessException;
 import com.youqi.usercenter.mapper.UserMapper;
 import com.youqi.usercenter.model.domain.User;
 import com.youqi.usercenter.service.UserService;
@@ -34,38 +36,36 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User>
      */
 
     @Override
-    public Long userRegister(String userAccount, String userPassword, String checkPassword,String planetCode) {
+    public long userRegister(String userAccount, String userPassword, String checkPassword,String planetCode) {
        //1.校验
         if(StringUtils.isAnyBlank(userAccount, userPassword, checkPassword,planetCode)){
-             return null;
+            throw new BusinessException(ErrorCode.PARAMS_ERROR,"参数为空");
         }
 
         //检查账号是否有特殊字符
             if (!userAccount.matches("^[a-zA-Z0-9_]+$")) {
-            return null;
+                throw new BusinessException(ErrorCode.PARAMS_ERROR,"账号有特殊字符");
         }
-            if(planetCode.length() > 5){
-                return null;
+            if(planetCode.length()>5){
+                throw new BusinessException(ErrorCode.PARAMS_ERROR,"编码不能超过五个");
             }
         //检查两次密码是否相同
         if(!userPassword.equals(checkPassword)) {
-            return null;
+            throw new BusinessException(ErrorCode.PARAMS_ERROR,"两次密码不相同");
         }
         //用户查重
         QueryWrapper<User> queryWrapper = new QueryWrapper<>();
         queryWrapper.eq("userAccount",userAccount);
          Long count = userMapper.selectCount(queryWrapper);
         if(count > 0){
-            return null;
+            throw new BusinessException(ErrorCode.PARAMS_ERROR,"当前用户已存在");
         }
-
-        System.out.println(1);
         //用户编号查重
        queryWrapper = new QueryWrapper<>();
         queryWrapper.eq("planetCode",planetCode);
         count = userMapper.selectCount(queryWrapper);
         if(count > 0){
-            return null;
+            throw new BusinessException(ErrorCode.PARAMS_ERROR,"当前用户编号已存在");
         }
 
         //2.对密码进行加密
@@ -77,7 +77,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User>
         user.setUserPassword(encryptPassword);
         user.setPlanetCode(planetCode);
         if(!this.save(user)){
-            return null;
+            throw new BusinessException(ErrorCode.PARAMS_ERROR,"用户保存失败");
         }
         return user.getId();
     }
@@ -94,19 +94,16 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User>
             return null;
         }
 
-
-        //3..对密码进行加密
+        // 2. 加密
         String encryptPassword = DigestUtils.md5DigestAsHex((SALT + userPassword).getBytes());
-
-        //查询密码是否存在
-          QueryWrapper<User> queryWrapper = new QueryWrapper<>();
-          queryWrapper.eq("userAccount",userAccount);
-          queryWrapper.eq("userPassword",encryptPassword);
-
+        // 查询用户是否存在
+        QueryWrapper<User> queryWrapper = new QueryWrapper<>();
+        queryWrapper.eq("userAccount", userAccount);
+        queryWrapper.eq("userPassword", encryptPassword);
         User user = userMapper.selectOne(queryWrapper);
-        //用户不存在
-        if(user == null){
-            log.info("user login fail,userAccount can not match passWord!");
+        // 用户不存在
+        if (user == null) {
+            log.info("user login failed, userAccount cannot match userPassword");
             return null;
         }
         //用户信息脱敏
@@ -127,7 +124,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User>
 
     public  User getSafetyUser(User originUser){
         if(originUser == null){
-            return null;
+           throw new BusinessException(ErrorCode.NULL_ERROR,"数据为空");
         }
         User safetyUser = new User();
         safetyUser.setId(originUser.getId());
@@ -147,7 +144,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User>
     @Override
     public int userLogout(HttpServletRequest request) {
         if (request == null){
-            return 0;
+           throw new BusinessException(ErrorCode.NULL_ERROR);
         }
         request.getSession().removeAttribute(USER_LOGIN_STATE);
         return 0;

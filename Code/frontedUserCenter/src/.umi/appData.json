@@ -119,7 +119,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 13
+        "register": 81
       },
       "enableBy": "register",
       "type": "preset",
@@ -132,7 +132,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 6
+        "register": 10
       },
       "enableBy": "register",
       "type": "preset",
@@ -149,7 +149,7 @@
             0
           ]
         },
-        "register": 2
+        "register": 6
       },
       "enableBy": "register",
       "type": "preset",
@@ -166,7 +166,7 @@
             0
           ]
         },
-        "register": 3
+        "register": 7
       },
       "enableBy": "register",
       "type": "plugin",
@@ -180,10 +180,10 @@
       "time": {
         "hooks": {
           "onStart": [
-            0
+            1
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -197,11 +197,6 @@
       "time": {
         "hooks": {
           "modifyRoutes": [
-            0,
-            0,
-            0,
-            0,
-            0,
             0,
             0,
             0,
@@ -222,21 +217,16 @@
       "time": {
         "hooks": {
           "modifyAppData": [
-            20
+            23
           ],
           "onGenerateFiles": [
-            2,
+            3,
             9,
-            8,
-            10,
-            12,
-            10,
-            9,
-            10,
-            8
+            11,
+            10
           ]
         },
-        "register": 19
+        "register": 25
       },
       "enableBy": "register",
       "type": "plugin",
@@ -250,12 +240,7 @@
       "time": {
         "hooks": {
           "addEntryCode": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
+            1,
             0,
             0,
             0
@@ -286,9 +271,6 @@
             1,
             0,
             0,
-            0,
-            0,
-            0,
             0
           ],
           "onCheckCode": [
@@ -307,7 +289,6 @@
             0,
             0,
             0,
-            1,
             0,
             0,
             0,
@@ -334,8 +315,6 @@
             0,
             0,
             0,
-            0,
-            1,
             0,
             0,
             0,
@@ -356,10 +335,10 @@
       "time": {
         "hooks": {
           "onCheck": [
-            0
+            1
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -389,7 +368,7 @@
             0
           ]
         },
-        "register": 8
+        "register": 15
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1272,7 +1251,7 @@
       "time": {
         "hooks": {
           "addBeforeMiddlewares": [
-            6
+            7
           ]
         },
         "register": 1
@@ -1288,7 +1267,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 62
+        "register": 67
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1301,7 +1280,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 97
+        "register": 129
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1314,7 +1293,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 16
+        "register": 23
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1328,12 +1307,14 @@
       "time": {
         "hooks": {
           "modifyAppData": [
-            0
+            1
           ],
           "addBeforeMiddlewares": [
             0
           ],
           "modifyHTMLFavicon": [
+            0,
+            0,
             0,
             0,
             0,
@@ -1360,26 +1341,16 @@
             2,
             1,
             0,
-            1,
-            1,
-            1,
-            0,
-            0,
-            0
+            1
           ],
           "addRuntimePlugin": [
-            0,
-            0,
-            0,
-            0,
-            0,
             0,
             0,
             0,
             0
           ]
         },
-        "register": 0
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1405,7 +1376,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 24
+        "register": 27
       },
       "type": "plugin",
       "path": "E:/Project portfolio/UserCenter/Code/frontedUserCenter/node_modules/@umijs/preset-umi/dist/features/mock/mock.js",
@@ -1417,7 +1388,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1430,7 +1401,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "type": "plugin",
       "path": "E:/Project portfolio/UserCenter/Code/frontedUserCenter/node_modules/@umijs/preset-umi/dist/features/okam/okam.js",
@@ -1446,11 +1417,6 @@
             0,
             0,
             0,
-            0,
-            0,
-            0,
-            0,
-            0,
             0
           ],
           "addEntryImports": [
@@ -1461,20 +1427,10 @@
             0,
             0,
             0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
             0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1487,7 +1443,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 2
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1504,27 +1460,12 @@
             1
           ],
           "onGenerateFiles": [
-            61,
-            21,
+            68,
+            19,
             18,
-            16,
-            29,
-            15,
-            15,
-            20,
-            16
+            13
           ],
           "addPolyfillImports": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
             0,
             0,
             0,
@@ -1555,16 +1496,6 @@
             0,
             0,
             0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
             0
           ]
         },
@@ -1582,12 +1513,7 @@
       "time": {
         "hooks": {
           "onGenerateFiles": [
-            124,
-            0,
-            0,
-            0,
-            0,
-            0,
+            332,
             0,
             0,
             0
@@ -1621,20 +1547,15 @@
         "hooks": {
           "onGenerateFiles": [
             1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
             1,
+            0,
             0
           ],
           "addBeforeMiddlewares": [
             0
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1648,27 +1569,17 @@
       "time": {
         "hooks": {
           "onGenerateFiles": [
-            15,
-            7,
-            14,
-            6,
-            12,
-            5,
-            12,
-            9,
-            15,
-            5,
-            12,
-            8,
-            15,
-            5,
+            16,
+            10,
             11,
             5,
-            13,
+            10,
+            7,
+            9,
             7
           ]
         },
-        "register": 6
+        "register": 5
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1681,7 +1592,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 2
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1694,7 +1605,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "type": "plugin",
       "path": "E:/Project portfolio/UserCenter/Code/frontedUserCenter/node_modules/@umijs/preset-umi/dist/features/routeProps/routeProps.js",
@@ -1720,18 +1631,13 @@
       "time": {
         "hooks": {
           "onGenerateFiles": [
-            336,
-            11,
-            7,
-            9,
-            10,
-            9,
-            7,
+            344,
+            16,
             8,
-            7
+            8
           ]
         },
-        "register": 5
+        "register": 3
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1748,7 +1654,7 @@
             0
           ]
         },
-        "register": 3
+        "register": 5
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1774,7 +1680,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1787,7 +1693,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 6
+        "register": 8
       },
       "type": "plugin",
       "path": "E:/Project portfolio/UserCenter/Code/frontedUserCenter/node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute.js",
@@ -1799,7 +1705,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 17
+        "register": 19
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1813,18 +1719,13 @@
       "time": {
         "hooks": {
           "onGenerateFiles": [
+            4,
             1,
             1,
-            1,
-            0,
-            1,
-            1,
-            1,
-            0,
             1
           ]
         },
-        "register": 1
+        "register": 2
       },
       "type": "plugin",
       "path": "E:/Project portfolio/UserCenter/Code/frontedUserCenter/node_modules/@umijs/preset-umi/dist/features/test/test.js",
@@ -1849,7 +1750,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1862,7 +1763,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1888,7 +1789,7 @@
       "time": {
         "hooks": {
           "addOnDemandDeps": [
-            1
+            0
           ]
         },
         "register": 1
@@ -1904,7 +1805,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 3
       },
       "type": "plugin",
       "path": "E:/Project portfolio/UserCenter/Code/frontedUserCenter/node_modules/@umijs/preset-umi/dist/features/ui/ui.js",
@@ -1929,7 +1830,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 2
       },
       "type": "plugin",
       "path": "E:/Project portfolio/UserCenter/Code/frontedUserCenter/node_modules/@umijs/preset-umi/dist/features/hmrGuardian/hmrGuardian.js",
@@ -1942,7 +1843,9 @@
       "time": {
         "hooks": {
           "addHTMLHeadScripts": [
-            16,
+            0,
+            0,
+            0,
             0,
             0,
             0,
@@ -1951,7 +1854,7 @@
             0
           ]
         },
-        "register": 1
+        "register": 2
       },
       "type": "plugin",
       "path": "E:/Project portfolio/UserCenter/Code/frontedUserCenter/node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad.js",
@@ -1977,7 +1880,7 @@
       "time": {
         "hooks": {
           "modifyUniBundler": [
-            450
+            541
           ]
         },
         "register": 1
@@ -2006,7 +1909,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 32
+        "register": 31
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2026,7 +1929,7 @@
             0
           ]
         },
-        "register": 37
+        "register": 59
       },
       "type": "plugin",
       "path": "E:/Project portfolio/UserCenter/Code/frontedUserCenter/node_modules/@umijs/preset-umi/dist/commands/dev/dev.js",
@@ -2077,7 +1980,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2090,7 +1993,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2142,7 +2045,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2181,7 +2084,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2207,7 +2110,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2272,7 +2175,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 17
+        "register": 20
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2285,7 +2188,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2315,29 +2218,19 @@
             0,
             0,
             0,
-            0,
-            0,
-            0,
-            0,
-            0,
             0
           ],
           "onGenerateFiles": [
-            4,
+            2,
             1,
             1,
-            1,
-            1,
-            0,
-            1,
-            1,
-            1
+            0
           ],
           "addTmpGenerateWatcherPaths": [
             0
           ]
         },
-        "register": 1
+        "register": 2
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2352,7 +2245,7 @@
       },
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "type": "plugin",
       "path": "E:/Project portfolio/UserCenter/Code/frontedUserCenter/node_modules/@umijs/plugins/dist/analytics.js",
@@ -2365,22 +2258,12 @@
       "time": {
         "hooks": {
           "modifyConfig": [
-            1
+            2
           ],
           "modifyAppData": [
             0
           ],
           "addEntryImportsAhead": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
             0,
             0,
             0,
@@ -2394,31 +2277,16 @@
             0,
             0,
             0,
-            0,
-            0,
-            0,
-            0,
-            0,
             0
           ],
           "addRuntimePluginKey": [
             0,
             0,
             0,
-            0,
-            0,
-            0,
-            0,
-            0,
             0
           ],
           "onGenerateFiles": [
-            2,
-            1,
-            1,
-            1,
-            1,
-            1,
+            4,
             1,
             1,
             1
@@ -2430,7 +2298,7 @@
             0
           ]
         },
-        "register": 5
+        "register": 6
       },
       "type": "plugin",
       "path": "E:/Project portfolio/UserCenter/Code/frontedUserCenter/node_modules/@umijs/plugins/dist/antd.js",
@@ -2459,19 +2327,9 @@
             0,
             0,
             0,
-            0,
-            0,
-            0,
-            0,
-            0,
             0
           ],
           "addRuntimePluginKey": [
-            0,
-            0,
-            0,
-            0,
-            0,
             0,
             0,
             0,
@@ -2480,27 +2338,17 @@
           "onGenerateFiles": [
             2,
             1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
+            0,
             1
           ],
           "addExtraModels": [
             0,
             0,
-            1,
             0,
-            0,
-            0,
-            0,
-            0,
-            1
+            0
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2520,24 +2368,14 @@
           ],
           "addLayouts": [
             0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
+            1,
             0,
             0
           ],
           "modifyAppData": [
-            0
+            1
           ],
           "addRuntimePlugin": [
-            0,
-            0,
-            0,
-            0,
-            0,
             0,
             0,
             0,
@@ -2547,26 +2385,16 @@
             0,
             0,
             0,
-            0,
-            0,
-            0,
-            0,
-            0,
             0
           ],
           "onGenerateFiles": [
-            10,
-            3,
+            13,
             2,
-            3,
-            3,
-            3,
             2,
-            3,
             2
           ]
         },
-        "register": 3
+        "register": 4
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2587,24 +2415,9 @@
             0,
             0,
             0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
             0
           ],
           "addRuntimePlugin": [
-            0,
-            0,
-            0,
-            0,
-            0,
             0,
             0,
             0,
@@ -2614,29 +2427,19 @@
             0,
             0,
             0,
-            0,
-            0,
-            0,
-            0,
-            0,
             0
           ],
           "onGenerateFiles": [
-            13,
+            20,
             6,
             5,
-            11,
-            6,
-            8,
-            6,
-            7,
-            6
+            5
           ],
           "addTmpGenerateWatcherPaths": [
-            4
+            2
           ]
         },
-        "register": 2
+        "register": 3
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2666,29 +2469,19 @@
             0,
             0,
             0,
-            0,
-            0,
-            0,
-            0,
-            0,
             0
           ],
           "onGenerateFiles": [
-            18,
-            13,
-            12,
-            18,
             15,
-            24,
-            14,
+            11,
             12,
-            14
+            9
           ],
           "addTmpGenerateWatcherPaths": [
             0
           ]
         },
-        "register": 1
+        "register": 2
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2702,14 +2495,9 @@
       "time": {
         "hooks": {
           "modifyConfig": [
-            1
+            0
           ],
           "addEntryCodeAhead": [
-            0,
-            0,
-            0,
-            0,
-            0,
             0,
             0,
             0,
@@ -2719,12 +2507,7 @@
             1,
             0,
             1,
-            0,
-            0,
-            1,
-            1,
-            1,
-            0
+            1
           ]
         },
         "register": 0
@@ -2744,15 +2527,10 @@
             0,
             0,
             0,
-            0,
-            0,
-            0,
-            0,
-            0,
             0
           ]
         },
-        "register": 1
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2765,7 +2543,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 2
       },
       "type": "plugin",
       "path": "E:/Project portfolio/UserCenter/Code/frontedUserCenter/node_modules/@umijs/plugins/dist/qiankun/master.js",
@@ -2777,7 +2555,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "type": "plugin",
       "path": "E:/Project portfolio/UserCenter/Code/frontedUserCenter/node_modules/@umijs/plugins/dist/qiankun/slave.js",
@@ -2806,26 +2584,16 @@
             0,
             0,
             0,
-            0,
-            0,
-            0,
-            0,
-            0,
             0
           ],
           "onGenerateFiles": [
-            2,
+            4,
             1,
             1,
-            5,
-            1,
-            1,
-            1,
-            1,
-            2
+            1
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2838,7 +2606,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 2
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2881,7 +2649,7 @@
             0
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2945,7 +2713,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2962,11 +2730,6 @@
             0,
             0,
             0,
-            0,
-            0,
-            0,
-            0,
-            0,
             0
           ],
           "onStart": [
@@ -2974,12 +2737,7 @@
           ],
           "onGenerateFiles": [
             1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
+            1,
             0,
             0
           ],
@@ -2987,22 +2745,15 @@
             0
           ],
           "onDevCompileDone": [
-            42,
+            87,
             5,
-            11,
             6,
-            7,
-            18,
             4,
             5,
-            8,
-            4,
-            4,
-            10,
             4
           ]
         },
-        "register": 153
+        "register": 235
       },
       "enableBy": "config",
       "type": "plugin",
@@ -3015,7 +2766,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 124
+        "register": 155
       },
       "enableBy": "config",
       "type": "plugin",
@@ -3059,18 +2810,13 @@
             0
           ],
           "onGenerateFiles": [
-            1,
-            1,
+            3,
             0,
-            1,
-            1,
-            0,
-            1,
             0,
             0
           ]
         },
-        "register": 43
+        "register": 48
       },
       "type": "plugin",
       "path": "E:/Project portfolio/UserCenter/Code/frontedUserCenter/node_modules/@umijs/request-record/dist/cjs/index.js",
@@ -3082,7 +2828,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -4320,7 +4066,7 @@
       "parentId": "1",
       "id": "2",
       "absPath": "/user/login",
-      "__content": "import { Footer } from '@/components';\r\nimport { SYSTEM_LOGO } from '@/constants';\r\nimport { login } from '@/services/ant-design-pro/api';\r\nimport {\r\n  AlipayCircleOutlined,\r\n  LockOutlined,\r\n  TaobaoCircleOutlined,\r\n  UserOutlined,\r\n  WeiboCircleOutlined,\r\n} from '@ant-design/icons';\r\nimport { LoginForm, ProFormCheckbox, ProFormText } from '@ant-design/pro-components';\r\nimport { FormattedMessage, Helmet, history, Link, SelectLang, useIntl, useModel } from '@umijs/max';\r\nimport { Alert, Divider, message, Space, Tabs } from 'antd';\r\nimport { createStyles } from 'antd-style';\r\nimport React, { useState } from 'react';\r\nimport { flushSync } from 'react-dom';\r\nimport Settings from '../../../../config/defaultSettings';\r\n\r\nconst useStyles = createStyles(({ token }) => {\r\n  return {\r\n    action: {\r\n      marginLeft: '8px',\r\n      color: 'rgba(0, 0, 0, 0.2)',\r\n      fontSize: '24px',\r\n      verticalAlign: 'middle',\r\n      cursor: 'pointer',\r\n      transition: 'color 0.3s',\r\n      '&:hover': {\r\n        color: token.colorPrimaryActive,\r\n      },\r\n    },\r\n    lang: {\r\n      width: 42,\r\n      height: 42,\r\n      lineHeight: '42px',\r\n      position: 'fixed',\r\n      right: 16,\r\n      borderRadius: token.borderRadius,\r\n      ':hover': {\r\n        backgroundColor: token.colorBgTextHover,\r\n      },\r\n    },\r\n    container: {\r\n      display: 'flex',\r\n      flexDirection: 'column',\r\n      height: '100vh',\r\n      overflow: 'auto',\r\n      backgroundImage:\r\n        \"url('https://mdn.alipayobjects.com/yuyan_qk0oxh/afts/img/V-_oS6r-i7wAAAAAAAAAAAAAFl94AQBr')\",\r\n      backgroundSize: '100% 100%',\r\n    },\r\n  };\r\n});\r\n\r\nconst ActionIcons = () => {\r\n  const { styles } = useStyles();\r\n\r\n  return (\r\n    <>\r\n      <AlipayCircleOutlined key=\"AlipayCircleOutlined\" className={styles.action} />\r\n      <TaobaoCircleOutlined key=\"TaobaoCircleOutlined\" className={styles.action} />\r\n      <WeiboCircleOutlined key=\"WeiboCircleOutlined\" className={styles.action} />\r\n    </>\r\n  );\r\n};\r\n\r\nconst Lang = () => {\r\n  const { styles } = useStyles();\r\n\r\n  return (\r\n    <div className={styles.lang} data-lang>\r\n      {SelectLang && <SelectLang />}\r\n    </div>\r\n  );\r\n};\r\n\r\nconst LoginMessage: React.FC<{\r\n  content: string;\r\n}> = ({ content }) => {\r\n  return (\r\n    <Alert\r\n      style={{\r\n        marginBottom: 24,\r\n      }}\r\n      message={content}\r\n      type=\"error\"\r\n      showIcon\r\n    />\r\n  );\r\n};\r\n\r\nconst Login: React.FC = () => {\r\n  const [userLoginState, setUserLoginState] = useState<API.LoginResult>({});\r\n  const [type, setType] = useState<string>('account');\r\n  const { initialState, setInitialState } = useModel('@@initialState');\r\n  const { styles } = useStyles();\r\n  const intl = useIntl();\r\n  console.log(\"请输入用户名\");\r\n  const fetchUserInfo = async () => {\r\n    const userInfo = await initialState?.fetchUserInfo?.();\r\n    if (userInfo) {\r\n      flushSync(() => {\r\n        setInitialState((s) => ({\r\n          ...s,\r\n          currentUser: userInfo,\r\n        }));\r\n      });\r\n    }\r\n  };\r\n\r\n  const handleSubmit = async (values: API.LoginParams) => {\r\n    try {\r\n      // 登录\r\n      const user = await login({ ...values, type });\r\n      if (user.code == 200&&user.data!=null) {\r\n        message.success('登录成功！');\r\n        await fetchUserInfo();\r\n        const urlParams = new URL(window.location.href).searchParams;\r\n        history.push(urlParams.get('redirect') || '/');\r\n        return;\r\n      }\r\n      // 如果失败去设置用户错误信息\r\n      setUserLoginState(user);\r\n      throw new Error('登录失败，请重试！');\r\n    } catch (error) {\r\n      console.log(error);\r\n      message.error('登录失败，请重试！');\r\n    }\r\n  };\r\n  // const { status, type: loginType } = userLoginState;\r\n\r\n  return (\r\n    <div className={styles.container}>\r\n      <Helmet>\r\n        <title>'登录页' - {Settings.title}</title>\r\n      </Helmet>\r\n      <Lang />\r\n      <div\r\n        style={{\r\n          flex: '1',\r\n          padding: '32px 0',\r\n        }}\r\n      >\r\n        <LoginForm\r\n          contentStyle={{\r\n            minWidth: 280,\r\n            maxWidth: '75vw',\r\n          }}\r\n          logo={<img alt=\"logo\" src={SYSTEM_LOGO} />}\r\n          title=\"忧戚的用户中心\"\r\n          subTitle={\r\n            <a href=\"https://www.codefather.cn/\" target=\"_blank\">\r\n              忧戚要学习\r\n            </a>\r\n          }\r\n          initialValues={{\r\n            autoLogin: true,\r\n          }}\r\n          onFinish={async (values) => {\r\n            await handleSubmit(values as API.LoginParams);\r\n          }}\r\n        >\r\n          <Tabs\r\n            activeKey={type}\r\n            onChange={setType}\r\n            centered\r\n            items={[\r\n              {\r\n                key: 'account',\r\n                label: '账户密码登录',\r\n              },\r\n            ]}\r\n          />\r\n\r\n          {status === 'error' && loginType === 'account' && (\r\n            <LoginMessage content=\"账户或密码错误(admin/ant.design)\" />\r\n          )}\r\n          {type === 'account' && (\r\n            <>\r\n              <ProFormText\r\n                name=\"userAccount\"\r\n                fieldProps={{\r\n                  size: 'large',\r\n                  prefix: <UserOutlined />,\r\n                }}\r\n                placeholder=\"请输入账号\"\r\n                rules={[\r\n                  {\r\n                    required: true,\r\n                    message: '请输入账号!',\r\n                  },\r\n                ]}\r\n              />\r\n              <ProFormText.Password\r\n                name=\"userPassword\"\r\n                fieldProps={{\r\n                  size: 'large',\r\n                  prefix: <LockOutlined />,\r\n                }}\r\n                placeholder=\"请输入密码\"\r\n                rules={[\r\n                  {\r\n                    required: true,\r\n                    message: '请输入密码！',\r\n                  },\r\n                  {\r\n                    type: 'string',\r\n                    min: 4,\r\n                    message: '密码长度不能小于4位！',\r\n                  },\r\n                ]}\r\n              />\r\n            </>\r\n          )}\r\n\r\n          <div\r\n            style={{\r\n              marginBottom: 24,\r\n            }}\r\n          >\r\n            <Space split={<Divider type=\"vertical\" />}>\r\n              <ProFormCheckbox noStyle name=\"autoLogin\">\r\n                <FormattedMessage id=\"pages.login.rememberMe\" defaultMessage=\"自动登录\" />\r\n              </ProFormCheckbox>\r\n\r\n              <a\r\n                style={{\r\n                  float: 'right',\r\n                }}\r\n              >\r\n                <FormattedMessage id=\"pages.login.forgotPassword\" defaultMessage=\"忘记密码\" />\r\n              </a>\r\n              <Link to=\"/user/register\">注册</Link>\r\n            </Space>\r\n          </div>\r\n        </LoginForm>\r\n      </div>\r\n      <Footer />\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default Login;\r\n",
+      "__content": "import { Footer } from '@/components';\r\nimport { SYSTEM_LOGO } from '@/constants';\r\nimport { login } from '@/services/ant-design-pro/api';\r\nimport {\r\n  AlipayCircleOutlined,\r\n  LockOutlined,\r\n  TaobaoCircleOutlined,\r\n  UserOutlined,\r\n  WeiboCircleOutlined,\r\n} from '@ant-design/icons';\r\nimport { LoginForm, ProFormCheckbox, ProFormText } from '@ant-design/pro-components';\r\nimport { FormattedMessage, Helmet, history, Link, SelectLang, useIntl, useModel } from '@umijs/max';\r\nimport { Alert, Divider, message, Space, Tabs } from 'antd';\r\nimport { createStyles } from 'antd-style';\r\nimport React, { useState } from 'react';\r\nimport { flushSync } from 'react-dom';\r\nimport Settings from '../../../../config/defaultSettings';\r\n\r\nconst useStyles = createStyles(({ token }) => {\r\n  return {\r\n    action: {\r\n      marginLeft: '8px',\r\n      color: 'rgba(0, 0, 0, 0.2)',\r\n      fontSize: '24px',\r\n      verticalAlign: 'middle',\r\n      cursor: 'pointer',\r\n      transition: 'color 0.3s',\r\n      '&:hover': {\r\n        color: token.colorPrimaryActive,\r\n      },\r\n    },\r\n    lang: {\r\n      width: 42,\r\n      height: 42,\r\n      lineHeight: '42px',\r\n      position: 'fixed',\r\n      right: 16,\r\n      borderRadius: token.borderRadius,\r\n      ':hover': {\r\n        backgroundColor: token.colorBgTextHover,\r\n      },\r\n    },\r\n    container: {\r\n      display: 'flex',\r\n      flexDirection: 'column',\r\n      height: '100vh',\r\n      overflow: 'auto',\r\n      backgroundImage:\r\n        \"url('https://mdn.alipayobjects.com/yuyan_qk0oxh/afts/img/V-_oS6r-i7wAAAAAAAAAAAAAFl94AQBr')\",\r\n      backgroundSize: '100% 100%',\r\n    },\r\n  };\r\n});\r\n\r\nconst ActionIcons = () => {\r\n  const { styles } = useStyles();\r\n\r\n  return (\r\n    <>\r\n      <AlipayCircleOutlined key=\"AlipayCircleOutlined\" className={styles.action} />\r\n      <TaobaoCircleOutlined key=\"TaobaoCircleOutlined\" className={styles.action} />\r\n      <WeiboCircleOutlined key=\"WeiboCircleOutlined\" className={styles.action} />\r\n    </>\r\n  );\r\n};\r\n\r\nconst Lang = () => {\r\n  const { styles } = useStyles();\r\n\r\n  return (\r\n    <div className={styles.lang} data-lang>\r\n      {SelectLang && <SelectLang />}\r\n    </div>\r\n  );\r\n};\r\n\r\nconst LoginMessage: React.FC<{\r\n  content: string;\r\n}> = ({ content }) => {\r\n  return (\r\n    <Alert\r\n      style={{\r\n        marginBottom: 24,\r\n      }}\r\n      message={content}\r\n      type=\"error\"\r\n      showIcon\r\n    />\r\n  );\r\n};\r\n\r\nconst Login: React.FC = () => {\r\n  const [setUserLoginState] = useState<API.LoginResult>({});\r\n  const [type, setType] = useState<string>('account');\r\n  const { initialState, setInitialState } = useModel('@@initialState');\r\n  const { styles } = useStyles();\r\n  console.log('请输入用户名');\r\n  const fetchUserInfo = async () => {\r\n    const userInfo = await initialState?.fetchUserInfo?.();\r\n    if (userInfo) {\r\n      flushSync(() => {\r\n        setInitialState((s) => ({\r\n          ...s,\r\n          currentUser: userInfo,\r\n        }));\r\n      });\r\n    }\r\n  };\r\n\r\n  const handleSubmit = async (values: API.LoginParams) => {\r\n    try {\r\n      // 登录\r\n      const user = await login({ ...values, type });\r\n      if (user!==null) {\r\n        message.success('登录成功！');\r\n        const test = await fetchUserInfo();\r\n        console.log(test);\r\n        \r\n        // 在登录成功后打印用户信息\r\n        const urlParams = new URL(window.location.href).searchParams;\r\n        history.push(urlParams.get('redirect') || '/');\r\n        return;\r\n      }\r\n      // 如果失败去设置用户错误信息\r\n      setUserLoginState(user);\r\n      throw new Error('登录失败，请重试！');\r\n    } catch (error) {\r\n      console.log(error);\r\n      message.error('登录失败，请重试！');\r\n    }\r\n  };\r\n  // const { status, type: loginType } = userLoginState;\r\n\r\n  return (\r\n    <div className={styles.container}>\r\n      <Helmet>\r\n        <title>'登录页' - {Settings.title}</title>\r\n      </Helmet>\r\n      <Lang />\r\n      <div\r\n        style={{\r\n          flex: '1',\r\n          padding: '32px 0',\r\n        }}\r\n      >\r\n        <LoginForm\r\n          contentStyle={{\r\n            minWidth: 280,\r\n            maxWidth: '75vw',\r\n          }}\r\n          logo={<img alt=\"logo\" src={SYSTEM_LOGO} />}\r\n          title=\"忧戚的用户中心\"\r\n          subTitle={\r\n            <a href=\"https://www.codefather.cn/\" target=\"_blank\">\r\n              忧戚要学习\r\n            </a>\r\n          }\r\n          initialValues={{\r\n            autoLogin: true,\r\n          }}\r\n          onFinish={async (values) => {\r\n            await handleSubmit(values as API.LoginParams);\r\n          }}\r\n        >\r\n          <Tabs\r\n            activeKey={type}\r\n            onChange={setType}\r\n            centered\r\n            items={[\r\n              {\r\n                key: 'account',\r\n                label: '账户密码登录',\r\n              },\r\n            ]}\r\n          />\r\n\r\n          {status === 'error' && loginType === 'account' && (\r\n            <LoginMessage content=\"账户或密码错误(admin/ant.design)\" />\r\n          )}\r\n          {type === 'account' && (\r\n            <>\r\n              <ProFormText\r\n                name=\"userAccount\"\r\n                fieldProps={{\r\n                  size: 'large',\r\n                  prefix: <UserOutlined />,\r\n                }}\r\n                placeholder=\"请输入账号\"\r\n                rules={[\r\n                  {\r\n                    required: true,\r\n                    message: '请输入账号!',\r\n                  },\r\n                ]}\r\n              />\r\n              <ProFormText.Password\r\n                name=\"userPassword\"\r\n                fieldProps={{\r\n                  size: 'large',\r\n                  prefix: <LockOutlined />,\r\n                }}\r\n                placeholder=\"请输入密码\"\r\n                rules={[\r\n                  {\r\n                    required: true,\r\n                    message: '请输入密码！',\r\n                  },\r\n                  {\r\n                    type: 'string',\r\n                    min: 4,\r\n                    message: '密码长度不能小于4位！',\r\n                  },\r\n                ]}\r\n              />\r\n            </>\r\n          )}\r\n\r\n          <div\r\n            style={{\r\n              marginBottom: 24,\r\n            }}\r\n          >\r\n            <Space split={<Divider type=\"vertical\" />}>\r\n              <ProFormCheckbox noStyle name=\"autoLogin\">\r\n                <FormattedMessage id=\"pages.login.rememberMe\" defaultMessage=\"自动登录\" />\r\n              </ProFormCheckbox>\r\n\r\n              <a\r\n                style={{\r\n                  float: 'right',\r\n                }}\r\n              >\r\n                <FormattedMessage id=\"pages.login.forgotPassword\" defaultMessage=\"忘记密码\" />\r\n              </a>\r\n              <Link to=\"/user/register\">注册</Link>\r\n            </Space>\r\n          </div>\r\n        </LoginForm>\r\n      </div>\r\n      <Footer />\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default Login;\r\n",
       "__isJSFile": true,
       "__absFile": "E:/Project portfolio/UserCenter/Code/frontedUserCenter/src/pages/User/Login/index.tsx"
     },
@@ -4331,7 +4077,7 @@
       "parentId": "1",
       "id": "3",
       "absPath": "/user/register",
-      "__content": "import { Footer } from '@/components';\r\nimport { register } from '@/services/ant-design-pro/api';\r\nimport {\r\n  AlipayCircleOutlined,\r\n  LockOutlined,\r\n  TaobaoCircleOutlined,\r\n  UserOutlined,\r\n  WeiboCircleOutlined,\r\n} from '@ant-design/icons';\r\nimport { SYSTEM_LOGO } from '@/constants';\r\nimport {\r\n  LoginForm,\r\n  ProFormText,\r\n} from '@ant-design/pro-components';\r\nimport { FormattedMessage, history, SelectLang, useIntl, useModel, Helmet } from '@umijs/max';\r\nimport { Alert, message, Tabs } from 'antd';\r\nimport Settings from '../../../../config/defaultSettings';\r\nimport React, { useState } from 'react';\r\nimport { flushSync } from 'react-dom';\r\nimport { createStyles } from 'antd-style';\r\n\r\nconst useStyles = createStyles(({ token }) => {\r\n  return {\r\n    action: {\r\n      marginLeft: '8px',\r\n      color: 'rgba(0, 0, 0, 0.2)',\r\n      fontSize: '24px',\r\n      verticalAlign: 'middle',\r\n      cursor: 'pointer',\r\n      transition: 'color 0.3s',\r\n      '&:hover': {\r\n        color: token.colorPrimaryActive,\r\n      },\r\n    },\r\n    lang: {\r\n      width: 42,\r\n      height: 42,\r\n      lineHeight: '42px',\r\n      position: 'fixed',\r\n      right: 16,\r\n      borderRadius: token.borderRadius,\r\n      ':hover': {\r\n        backgroundColor: token.colorBgTextHover,\r\n      },\r\n    },\r\n    container: {\r\n      display: 'flex',\r\n      flexDirection: 'column',\r\n      height: '100vh',\r\n      overflow: 'auto',\r\n      backgroundImage:\r\n        \"url('https://mdn.alipayobjects.com/yuyan_qk0oxh/afts/img/V-_oS6r-i7wAAAAAAAAAAAAAFl94AQBr')\",\r\n      backgroundSize: '100% 100%',\r\n    },\r\n  };\r\n});\r\n\r\nconst ActionIcons = () => {\r\n  const { styles } = useStyles();\r\n\r\n  return (\r\n    <>\r\n      <AlipayCircleOutlined key=\"AlipayCircleOutlined\" className={styles.action} />\r\n      <TaobaoCircleOutlined key=\"TaobaoCircleOutlined\" className={styles.action} />\r\n      <WeiboCircleOutlined key=\"WeiboCircleOutlined\" className={styles.action} />\r\n    </>\r\n  );\r\n};\r\n\r\nconst Lang = () => {\r\n  const { styles } = useStyles();\r\n\r\n  return (\r\n    <div className={styles.lang} data-lang>\r\n      {SelectLang && <SelectLang />}\r\n    </div>\r\n  );\r\n};\r\n\r\nconst LoginMessage: React.FC<{\r\n  content: string;\r\n}> = ({ content }) => {\r\n  return (\r\n    <Alert\r\n      style={{\r\n        marginBottom: 24,\r\n      }}\r\n      message={content}\r\n      type=\"error\"\r\n      showIcon\r\n    />\r\n  );\r\n};\r\n\r\nconst Register: React.FC = () => {\r\n  const [userLoginState, setUserLoginState] = useState<API.LoginResult>({});\r\n  const [type, setType] = useState<string>('account');\r\n  const { initialState, setInitialState } = useModel('@@initialState');\r\n  const { styles } = useStyles();\r\n  const intl = useIntl();\r\n  console.log('请输入用户名'); // 举例：你想直接显示中文\r\n  const fetchUserInfo = async () => {\r\n    const userInfo = await initialState?.fetchUserInfo?.();\r\n    if (userInfo) {\r\n      flushSync(() => {\r\n        setInitialState((s) => ({\r\n          ...s,\r\n          currentUser: userInfo,\r\n        }));\r\n      });\r\n    }\r\n  };\r\n\r\n  const handleSubmit = async (values: API.RegisterParams) => {\r\n    const { userAccount, userPassword, checkPassword } = values;\r\n    if (userPassword !== checkPassword) {\r\n      message.error('两次输入的密码不一致！');\r\n      return;\r\n    }\r\n    try {\r\n      // 注册\r\n      const id = await register(values);\r\n      if (id >= 0) {\r\n        message.success('注册成功！');\r\n        // await fetchUserInfo();\r\n        const urlParams = new URL(window.location.href).searchParams;\r\n        history.push(urlParams.get('redirect') || '/');\r\n        return;\r\n      } else {\r\n        throw new Error(`regiser failed, id: ${id}`);\r\n      }\r\n    } catch (error) {\r\n      console.log(error);\r\n      message.error('注册失败，请重试！');\r\n    }\r\n  };\r\n  const { status, type: loginType } = userLoginState;\r\n\r\n  return (\r\n    <div className={styles.container}>\r\n      <Helmet>\r\n        <title>'登录页' - {Settings.title}</title>\r\n      </Helmet>\r\n      <Lang />\r\n      <div\r\n        style={{\r\n          flex: '1',\r\n          padding: '32px 0',\r\n        }}\r\n      >\r\n        <LoginForm\r\n          contentStyle={{\r\n            minWidth: 280,\r\n            maxWidth: '75vw',\r\n          }}\r\n          submitter={{\r\n            searchConfig: {\r\n              submitText: '注册',\r\n            },\r\n          }}\r\n          logo={<img alt=\"logo\" src={SYSTEM_LOGO} />}\r\n          title=\"忧戚的用户中心\"\r\n          subTitle={\r\n            <a href=\"https://www.codefather.cn/\" target=\"_blank\">\r\n              忧戚要学习\r\n            </a>\r\n          }\r\n          initialValues={{\r\n            autoLogin: true,\r\n          }}\r\n          onFinish={async (values) => {\r\n            await handleSubmit(values as API.RegisterParams);\r\n          }}\r\n        >\r\n          <Tabs\r\n            activeKey={type}\r\n            onChange={setType}\r\n            centered\r\n            items={[\r\n              {\r\n                key: 'account',\r\n                label: '账户密码注册',\r\n              },\r\n            ]}\r\n          />\r\n\r\n          {status === 'error' && loginType === 'account' && (\r\n            <LoginMessage content=\"账户或密码错误(admin/ant.design)\" />\r\n          )}\r\n          {type === 'account' && (\r\n            <>\r\n              <ProFormText\r\n                name=\"userAccount\"\r\n                fieldProps={{\r\n                  size: 'large',\r\n                  prefix: <UserOutlined />,\r\n                }}\r\n                placeholder=\"请输入账号\"\r\n                rules={[\r\n                  {\r\n                    required: true,\r\n                    message: '请输入账号!',\r\n                  },\r\n                ]}\r\n              />\r\n              <ProFormText.Password\r\n                name=\"userPassword\"\r\n                fieldProps={{\r\n                  size: 'large',\r\n                  prefix: <LockOutlined />,\r\n                }}\r\n                placeholder=\"请输入密码\"\r\n                rules={[\r\n                  {\r\n                    required: true,\r\n                    message: '请输入密码！',\r\n                  },\r\n                  {\r\n                    type: 'string',\r\n                    min: 4,\r\n                    message: '密码长度不能小于4位！',\r\n                  },\r\n                ]}\r\n              />\r\n              <ProFormText.Password\r\n                name=\"checkPassword\"\r\n                fieldProps={{\r\n                  size: 'large',\r\n                  prefix: <LockOutlined />,\r\n                }}\r\n                placeholder=\"请再次输入密码\"\r\n                rules={[\r\n                  {\r\n                    required: true,\r\n                    message: '请输入密码！',\r\n                  },\r\n                  {\r\n                    type: 'string',\r\n                    min: 4,\r\n                    message: '密码长度不能小于4位！',\r\n                  },\r\n                ]}\r\n              />\r\n            </>\r\n          )}\r\n        </LoginForm>\r\n      </div>\r\n      <Footer />\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default Register;\r\n",
+      "__content": "import { Footer } from '@/components';\r\nimport { register } from '@/services/ant-design-pro/api';\r\nimport {\r\n  AlipayCircleOutlined,\r\n  LockOutlined,\r\n  TaobaoCircleOutlined,\r\n  UserOutlined,\r\n  WeiboCircleOutlined,\r\n} from '@ant-design/icons';\r\nimport { SYSTEM_LOGO } from '@/constants';\r\nimport {\r\n  LoginForm,\r\n  ProFormText,\r\n} from '@ant-design/pro-components';\r\nimport {  history, SelectLang, useIntl, useModel, Helmet } from '@umijs/max';\r\nimport { Alert, message, Tabs } from 'antd';\r\nimport Settings from '../../../../config/defaultSettings';\r\nimport React, { useState } from 'react';\r\nimport { flushSync } from 'react-dom';\r\nimport { createStyles } from 'antd-style';\r\n\r\nconst useStyles = createStyles(({ token }) => {\r\n  return {\r\n    action: {\r\n      marginLeft: '8px',\r\n      color: 'rgba(0, 0, 0, 0.2)',\r\n      fontSize: '24px',\r\n      verticalAlign: 'middle',\r\n      cursor: 'pointer',\r\n      transition: 'color 0.3s',\r\n      '&:hover': {\r\n        color: token.colorPrimaryActive,\r\n      },\r\n    },\r\n    lang: {\r\n      width: 42,\r\n      height: 42,\r\n      lineHeight: '42px',\r\n      position: 'fixed',\r\n      right: 16,\r\n      borderRadius: token.borderRadius,\r\n      ':hover': {\r\n        backgroundColor: token.colorBgTextHover,\r\n      },\r\n    },\r\n    container: {\r\n      display: 'flex',\r\n      flexDirection: 'column',\r\n      height: '100vh',\r\n      overflow: 'auto',\r\n      backgroundImage:\r\n        \"url('https://mdn.alipayobjects.com/yuyan_qk0oxh/afts/img/V-_oS6r-i7wAAAAAAAAAAAAAFl94AQBr')\",\r\n      backgroundSize: '100% 100%',\r\n    },\r\n  };\r\n});\r\n\r\nconst ActionIcons = () => {\r\n  const { styles } = useStyles();\r\n\r\n  return (\r\n    <>\r\n      <AlipayCircleOutlined key=\"AlipayCircleOutlined\" className={styles.action} />\r\n      <TaobaoCircleOutlined key=\"TaobaoCircleOutlined\" className={styles.action} />\r\n      <WeiboCircleOutlined key=\"WeiboCircleOutlined\" className={styles.action} />\r\n    </>\r\n  );\r\n};\r\n\r\nconst Lang = () => {\r\n  const { styles } = useStyles();\r\n\r\n  return (\r\n    <div className={styles.lang} data-lang>\r\n      {SelectLang && <SelectLang />}\r\n    </div>\r\n  );\r\n};\r\n\r\nconst LoginMessage: React.FC<{\r\n  content: string;\r\n}> = ({ content }) => {\r\n  return (\r\n    <Alert\r\n      style={{\r\n        marginBottom: 24,\r\n      }}\r\n      message={content}\r\n      type=\"error\"\r\n      showIcon\r\n    />\r\n  );\r\n};\r\n\r\nconst Register: React.FC = () => {\r\n  const [userLoginState, setUserLoginState] = useState<API.LoginResult>({});\r\n  const [type, setType] = useState<string>('account');\r\n  const { initialState, setInitialState } = useModel('@@initialState');\r\n  const { styles } = useStyles();\r\n  const intl = useIntl();\r\n  console.log('请输入用户名'); // 举例：你想直接显示中文\r\n  const fetchUserInfo = async () => {\r\n    const userInfo = await initialState?.fetchUserInfo?.();\r\n    if (userInfo) {\r\n      flushSync(() => {\r\n        setInitialState((s) => ({\r\n          ...s,\r\n          currentUser: userInfo,\r\n        }));\r\n      });\r\n    }\r\n  };\r\n\r\n  const handleSubmit = async (values: API.RegisterParams) => {\r\n    const { userAccount, userPassword, checkPassword } = values;\r\n    if (userPassword !== checkPassword) {\r\n      message.error('两次输入的密码不一致！');\r\n      return;\r\n    }\r\n\r\n    const id = await register(values);\r\n    console.log(id);\r\n    \r\n      // 后端 code 判断，成功时跳转\r\n      if (id!=null) {\r\n        message.success('注册成功！');\r\n        const urlParams = new URL(window.location.href).searchParams;\r\n        history.push(urlParams.get('redirect') || '/');\r\n        return;\r\n      }\r\n    \r\n  };\r\n  const { status, type: loginType } = userLoginState;\r\n\r\n  return (\r\n    <div className={styles.container}>\r\n      <Helmet>\r\n        <title>'登录页' - {Settings.title}</title>\r\n      </Helmet>\r\n      <Lang />\r\n      <div\r\n        style={{\r\n          flex: '1',\r\n          padding: '32px 0',\r\n        }}\r\n      >\r\n        <LoginForm\r\n          contentStyle={{\r\n            minWidth: 280,\r\n            maxWidth: '75vw',\r\n          }}\r\n          submitter={{\r\n            searchConfig: {\r\n              submitText: '注册',\r\n            },\r\n          }}\r\n          logo={<img alt=\"logo\" src={SYSTEM_LOGO} />}\r\n          title=\"忧戚的用户中心\"\r\n          subTitle={\r\n            <a href=\"https://www.codefather.cn/\" target=\"_blank\">\r\n              忧戚要学习\r\n            </a>\r\n          }\r\n          initialValues={{\r\n            autoLogin: true,\r\n          }}\r\n          onFinish={async (values) => {\r\n            await handleSubmit(values as API.RegisterParams);\r\n          }}\r\n        >\r\n          <Tabs\r\n            activeKey={type}\r\n            onChange={setType}\r\n            centered\r\n            items={[\r\n              {\r\n                key: 'account',\r\n                label: '账户密码注册',\r\n              },\r\n            ]}\r\n          />\r\n\r\n          {status === 'error' && loginType === 'account' && (\r\n            <LoginMessage content=\"账户或密码错误(admin/ant.design)\" />\r\n          )}\r\n          {type === 'account' && (\r\n            <>\r\n              <ProFormText\r\n                name=\"userAccount\"\r\n                fieldProps={{\r\n                  size: 'large',\r\n                  prefix: <UserOutlined />,\r\n                }}\r\n                placeholder=\"请输入账号\"\r\n                rules={[\r\n                  {\r\n                    required: true,\r\n                    message: '请输入账号!',\r\n                  },\r\n                ]}\r\n              />\r\n              <ProFormText\r\n                name=\"planetCode\"\r\n                fieldProps={{\r\n                  size: 'large',\r\n                  prefix: <UserOutlined />,\r\n                }}\r\n                placeholder=\"请输入编号\"\r\n                rules={[\r\n                  {\r\n                    required: true,\r\n                    message: '请输入编号!',\r\n                  },\r\n                ]}\r\n              />\r\n              <ProFormText.Password\r\n                name=\"userPassword\"\r\n                fieldProps={{\r\n                  size: 'large',\r\n                  prefix: <LockOutlined />,\r\n                }}\r\n                placeholder=\"请输入密码\"\r\n                rules={[\r\n                  {\r\n                    required: true,\r\n                    message: '请输入密码！',\r\n                  },\r\n                  {\r\n                    type: 'string',\r\n                    min: 4,\r\n                    message: '密码长度不能小于4位！',\r\n                  },\r\n                ]}\r\n              />\r\n              <ProFormText.Password\r\n                name=\"checkPassword\"\r\n                fieldProps={{\r\n                  size: 'large',\r\n                  prefix: <LockOutlined />,\r\n                }}\r\n                placeholder=\"请再次输入密码\"\r\n                rules={[\r\n                  {\r\n                    required: true,\r\n                    message: '请输入密码！',\r\n                  },\r\n                  {\r\n                    type: 'string',\r\n                    min: 4,\r\n                    message: '密码长度不能小于4位！',\r\n                  },\r\n                ]}\r\n              />\r\n            </>\r\n          )}\r\n        </LoginForm>\r\n      </div>\r\n      <Footer />\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default Register;\r\n",
       "__isJSFile": true,
       "__absFile": "E:/Project portfolio/UserCenter/Code/frontedUserCenter/src/pages/User/Register/index.tsx"
     },
@@ -4368,7 +4114,7 @@
       "parentId": "5",
       "id": "6",
       "absPath": "/admin/user-manage",
-      "__content": "import { searchUser } from '@/services/ant-design-pro/api';\r\nimport type { ActionType, ProColumns } from '@ant-design/pro-components';\r\nimport { ProTable } from '@ant-design/pro-components';\r\nimport { useIntl } from '@umijs/max';\r\nimport { useRef } from 'react';\r\nexport const waitTimePromise = async (time: number = 100) => {\r\n  return new Promise((resolve) => {\r\n    setTimeout(() => {\r\n      resolve(true);\r\n    }, time);\r\n  });\r\n};\r\n\r\nexport const waitTime = async (time: number = 100) => {\r\n  await waitTimePromise(time);\r\n};\r\n\r\nconst columns: ProColumns<API.CurrentUser>[] = [\r\n  {\r\n    dataIndex: 'id',\r\n    valueType: 'indexBorder',\r\n    width: 48,\r\n  },\r\n  {\r\n    title: '用户名',\r\n    dataIndex: 'username',\r\n    copyable: true,\r\n  },\r\n  {\r\n    title: '用户角色',\r\n    dataIndex: 'userRole',\r\n    valueEnum: {\r\n      1: { text: '管理员', status: 'success' },\r\n      0: { text: '普通用户', status: 'processing' },\r\n    },\r\n  },\r\n  {\r\n    title: '用户账号',\r\n    dataIndex: 'userAccount',\r\n    copyable: true,\r\n  },\r\n  {\r\n    title: '性别',\r\n    dataIndex: 'gender',\r\n    valueEnum: {\r\n      1: { text: '男'},\r\n      0: { text: '女'},\r\n    },\r\n  },\r\n  {\r\n    title: '手机号',\r\n    dataIndex: 'phone',\r\n    copyable: true,\r\n  },\r\n  {\r\n    title: '邮箱',\r\n    dataIndex: 'email',\r\n    copyable: true,\r\n  },\r\n  {\r\n    title: '状态',\r\n    dataIndex: 'status',\r\n    valueEnum: {\r\n      1: { text: '正常', status: 'success' },\r\n      0: { text: '冻结', status: 'processing' },\r\n    },\r\n  },\r\n  {\r\n    title: '头像',\r\n    dataIndex: 'avatarUrl',\r\n    render: (_, entity) => (\r\n      <img\r\n        src={entity.avatarUrl || '/default-avatar.png'}\r\n        alt=\"avatar\"\r\n        style={{\r\n          width: 32,\r\n          height: 32,\r\n          borderRadius: '50%',\r\n        }}\r\n      />\r\n    ),\r\n  },\r\n  {\r\n    title: '创建时间',\r\n    dataIndex: 'createTime',\r\n    valueType: 'dateTime',\r\n    sorter: true,\r\n  },\r\n];\r\n\r\nexport default () => {\r\n  const actionRef = useRef<ActionType>();\r\n  return (\r\n    <ProTable<API.CurrentUser>\r\n      columns={columns}\r\n      actionRef={actionRef}\r\n      cardBordered\r\n      request={async (params, sort, filter) => {\r\n        console.log(sort, filter);\r\n        const userList: API.SearchUserResponse= await searchUser();\r\n        return {\r\n          data: userList.data\r\n        }\r\n      }}\r\n      editable={{\r\n        type: 'multiple',\r\n      }}\r\n      columnsState={{\r\n        persistenceKey: 'pro-table-singe-demos',\r\n        persistenceType: 'localStorage',\r\n        defaultValue: {\r\n          option: { fixed: 'right', disable: true },\r\n        },\r\n        onChange(value) {\r\n          console.log('value: ', value);\r\n        },\r\n      }}\r\n      rowKey=\"id\"\r\n      search={{\r\n        labelWidth: 'auto',\r\n      }}\r\n      options={{\r\n        setting: {\r\n          listsHeight: 400,\r\n        },\r\n      }}\r\n      form={{\r\n        // 由于配置了 transform，提交的参数与定义的不同这里需要转化一下\r\n        syncToUrl: (values, type) => {\r\n          if (type === 'get') {\r\n            return {\r\n              ...values,\r\n              created_at: [values.startTime, values.endTime],\r\n            };\r\n          }\r\n          return values;\r\n        },\r\n      }}\r\n      pagination={{\r\n        pageSize: 5,\r\n        onChange: (page) => console.log(page),\r\n      }}\r\n      dateFormatter=\"string\"\r\n      headerTitle=\"高级表格\"\r\n    \r\n    />\r\n  );\r\n};\r\n",
+      "__content": "import { searchUser } from '@/services/ant-design-pro/api';\r\nimport type { ActionType, ProColumns } from '@ant-design/pro-components';\r\nimport { ProTable } from '@ant-design/pro-components';\r\nimport { useRef } from 'react';\r\nexport const waitTimePromise = async (time: number = 100) => {\r\n  return new Promise((resolve) => {\r\n    setTimeout(() => {\r\n      resolve(true);\r\n    }, time);\r\n  });\r\n};\r\n\r\nexport const waitTime = async (time: number = 100) => {\r\n  await waitTimePromise(time);\r\n};\r\n\r\nconst columns: ProColumns<API.CurrentUser>[] = [\r\n  {\r\n    dataIndex: 'id',\r\n    valueType: 'indexBorder',\r\n    width: 48,\r\n  },\r\n  {\r\n    title: '用户名',\r\n    dataIndex: 'username',\r\n    copyable: true,\r\n  },\r\n  {\r\n    title: '用户角色',\r\n    dataIndex: 'userRole',\r\n    valueEnum: {\r\n      1: { text: '管理员', status: 'success' },\r\n      0: { text: '普通用户', status: 'processing' },\r\n    },\r\n  },\r\n  {\r\n    title: '用户账号',\r\n    dataIndex: 'userAccount',\r\n    copyable: true,\r\n  },\r\n  {\r\n    title: '用户编号',\r\n    dataIndex: 'planetCode',\r\n    copyable: true,\r\n  },\r\n  {\r\n    title: '性别',\r\n    dataIndex: 'gender',\r\n    valueEnum: {\r\n      1: { text: '男' },\r\n      0: { text: '女' },\r\n    },\r\n  },\r\n  {\r\n    title: '手机号',\r\n    dataIndex: 'phone',\r\n    copyable: true,\r\n  },\r\n  {\r\n    title: '邮箱',\r\n    dataIndex: 'email',\r\n    copyable: true,\r\n  },\r\n  {\r\n    title: '状态',\r\n    dataIndex: 'status',\r\n    valueEnum: {\r\n      1: { text: '正常', status: 'success' },\r\n      0: { text: '冻结', status: 'processing' },\r\n    },\r\n  },\r\n  {\r\n    title: '头像',\r\n    dataIndex: 'avatarUrl',\r\n    render: (_, entity) => (\r\n      <img\r\n        src={entity.avatarUrl || '/default-avatar.png'}\r\n        alt=\"avatar\"\r\n        style={{\r\n          width: 32,\r\n          height: 32,\r\n          borderRadius: '50%',\r\n        }}\r\n      />\r\n    ),\r\n  },\r\n  {\r\n    title: '创建时间',\r\n    dataIndex: 'createTime',\r\n    valueType: 'dateTime',\r\n    sorter: true,\r\n  },\r\n];\r\n\r\nexport default () => {\r\n  const actionRef = useRef<ActionType>();\r\n  \r\n  return (\r\n    <ProTable<API.CurrentUser>\r\n      columns={columns}\r\n      actionRef={actionRef}\r\n      cardBordered\r\n      request={async (params, sort, filter) => {\r\n        console.log(sort, filter);\r\n        const userList: API.BaseResponse = await searchUser();\r\n        return {\r\n          data: userList\r\n        }\r\n      }}\r\n      editable={{\r\n        type: 'multiple',\r\n      }}\r\n      columnsState={{\r\n        persistenceKey: 'pro-table-singe-demos',\r\n        persistenceType: 'localStorage',\r\n        defaultValue: {\r\n          option: { fixed: 'right', disable: true },\r\n        },\r\n        onChange(value) {\r\n          console.log('value: ', value);\r\n        },\r\n      }}\r\n      rowKey=\"id\"\r\n      search={{\r\n        labelWidth: 'auto',\r\n      }}\r\n      options={{\r\n        setting: {\r\n          listsHeight: 400,\r\n        },\r\n      }}\r\n      form={{\r\n        // 由于配置了 transform，提交的参数与定义的不同这里需要转化一下\r\n        syncToUrl: (values, type) => {\r\n          if (type === 'get') {\r\n            return {\r\n              ...values,\r\n              created_at: [values.startTime, values.endTime],\r\n            };\r\n          }\r\n          return values;\r\n        },\r\n      }}\r\n      pagination={{\r\n        pageSize: 5,\r\n        onChange: (page) => console.log(page),\r\n      }}\r\n      dateFormatter=\"string\"\r\n      headerTitle=\"高级表格\"\r\n    \r\n    />\r\n  );\r\n};\r\n",
       "__isJSFile": true,
       "__absFile": "E:/Project portfolio/UserCenter/Code/frontedUserCenter/src/pages/Admin/UserManage/index.tsx"
     },
@@ -4472,7 +4218,9 @@
   ],
   "overridesCSS": [],
   "bundler": "webpack",
-  "git": {},
+  "git": {
+    "originUrl": "https://github.com/youqi103/userCenter.git"
+  },
   "framework": "react",
   "typescript": {
     "tsVersion": "5.8.3",
@@ -5661,13 +5409,34 @@
             ],
             "format": "esm"
           },
-          "src/services/ant-design-pro/api.ts": {
-            "bytes": 2902,
+          "src/plugin/GlobalRequest.tsx": {
+            "bytes": 1012,
             "imports": [
               {
                 "path": "src/.umi/exports.ts",
                 "kind": "import-statement",
                 "original": "@umijs/max"
+              },
+              {
+                "path": "antd",
+                "kind": "import-statement",
+                "external": true
+              },
+              {
+                "path": "umi-request",
+                "kind": "import-statement",
+                "external": true
+              }
+            ],
+            "format": "esm"
+          },
+          "src/services/ant-design-pro/api.ts": {
+            "bytes": 2879,
+            "imports": [
+              {
+                "path": "src/plugin/GlobalRequest.tsx",
+                "kind": "import-statement",
+                "original": "@/plugin/GlobalRequest"
               }
             ],
             "format": "esm"
@@ -5782,12 +5551,17 @@
             "format": "esm"
           },
           "src/app.tsx": {
-            "bytes": 4533,
+            "bytes": 4566,
             "imports": [
               {
                 "path": "src/components/index.ts",
                 "kind": "import-statement",
                 "original": "@/components"
+              },
+              {
+                "path": "src/services/ant-design-pro/api.ts",
+                "kind": "import-statement",
+                "original": "@/services/ant-design-pro/api"
               },
               {
                 "path": "@ant-design/icons",
@@ -5805,29 +5579,14 @@
                 "original": "@umijs/max"
               },
               {
-                "path": "config/defaultSettings.ts",
-                "kind": "import-statement",
-                "original": "../config/defaultSettings"
-              },
-              {
-                "path": "./requestErrorConfig",
-                "kind": "import-statement",
-                "external": true
-              },
-              {
-                "path": "src/services/ant-design-pro/api.ts",
-                "kind": "import-statement",
-                "original": "@/services/ant-design-pro/api"
-              },
-              {
-                "path": "react",
-                "kind": "import-statement",
-                "external": true
-              },
-              {
                 "path": "umi",
                 "kind": "import-statement",
                 "external": true
+              },
+              {
+                "path": "config/defaultSettings.ts",
+                "kind": "import-statement",
+                "original": "../config/defaultSettings"
               }
             ],
             "format": "esm"
@@ -6349,7 +6108,7 @@
             "format": "esm"
           },
           "src/pages/User/Login/index.tsx": {
-            "bytes": 6907,
+            "bytes": 6942,
             "imports": [
               {
                 "path": "src/components/index.ts",
@@ -6410,7 +6169,7 @@
             "format": "esm"
           },
           "src/pages/User/Register/index.tsx": {
-            "bytes": 7082,
+            "bytes": 7337,
             "imports": [
               {
                 "path": "src/components/index.ts",
@@ -6533,7 +6292,7 @@
             "format": "esm"
           },
           "src/pages/Admin/UserManage/index.tsx": {
-            "bytes": 3447,
+            "bytes": 3494,
             "imports": [
               {
                 "path": "src/services/ant-design-pro/api.ts",
@@ -6542,11 +6301,6 @@
               },
               {
                 "path": "@ant-design/pro-components",
-                "kind": "import-statement",
-                "external": true
-              },
-              {
-                "path": "@umijs/max",
                 "kind": "import-statement",
                 "external": true
               },
@@ -7172,6 +6926,16 @@
                 "external": true
               },
               {
+                "path": "umi-request",
+                "kind": "import-statement",
+                "external": true
+              },
+              {
+                "path": "antd",
+                "kind": "import-statement",
+                "external": true
+              },
+              {
                 "path": "react",
                 "kind": "import-statement",
                 "external": true
@@ -7223,11 +6987,6 @@
               },
               {
                 "path": "@ant-design/pro-components",
-                "kind": "import-statement",
-                "external": true
-              },
-              {
-                "path": "react",
                 "kind": "import-statement",
                 "external": true
               },
@@ -8815,8 +8574,11 @@
               "src/components/RightContent/index.tsx": {
                 "bytesInOutput": 822
               },
+              "src/plugin/GlobalRequest.tsx": {
+                "bytesInOutput": 1155
+              },
               "src/services/ant-design-pro/api.ts": {
-                "bytesInOutput": 1539
+                "bytesInOutput": 1668
               },
               "src/components/HeaderDropdown/index.tsx": {
                 "bytesInOutput": 807
@@ -8831,7 +8593,7 @@
                 "bytesInOutput": 768
               },
               "src/app.tsx": {
-                "bytesInOutput": 3918
+                "bytesInOutput": 3967
               },
               "src/.umi/core/helmetContext.ts": {
                 "bytesInOutput": 129
@@ -8843,7 +8605,7 @@
                 "bytesInOutput": 291
               },
               "src/.umi/plugin-model/index.tsx": {
-                "bytesInOutput": 3138
+                "bytesInOutput": 3134
               },
               "src/.umi/plugin-access/runtime.tsx": {
                 "bytesInOutput": 673
@@ -8909,7 +8671,7 @@
                 "bytesInOutput": 148
               },
               "src/.umi/plugin-request/request.ts": {
-                "bytesInOutput": 5257
+                "bytesInOutput": 5261
               },
               "src/.umi/plugin-request/index.ts": {
                 "bytesInOutput": 121
@@ -8927,10 +8689,10 @@
                 "bytesInOutput": 172
               },
               "src/pages/User/Login/index.tsx": {
-                "bytesInOutput": 7828
+                "bytesInOutput": 7816
               },
               "src/pages/User/Register/index.tsx": {
-                "bytesInOutput": 8090
+                "bytesInOutput": 8393
               },
               "src/pages/Welcome.tsx": {
                 "bytesInOutput": 6705
@@ -8939,7 +8701,7 @@
                 "bytesInOutput": 580
               },
               "src/pages/Admin/UserManage/index.tsx": {
-                "bytesInOutput": 4102
+                "bytesInOutput": 4213
               },
               "src/pages/404.tsx": {
                 "bytesInOutput": 682
@@ -8972,7 +8734,7 @@
                 "bytesInOutput": 2446
               },
               "src/.umi/exports.ts": {
-                "bytesInOutput": 4646
+                "bytesInOutput": 4647
               },
               "src/global.tsx": {
                 "bytesInOutput": 2550
@@ -8987,7 +8749,7 @@
                 "bytesInOutput": 1886
               }
             },
-            "bytes": 166812
+            "bytes": 168581
           }
         }
       }
@@ -13521,6 +13283,16 @@
           "source": "@/components",
           "specifiers": [
             {
+              "imported": "AvatarDropdown",
+              "local": "AvatarDropdown",
+              "type": "ImportSpecifier"
+            },
+            {
+              "imported": "AvatarName",
+              "local": "AvatarName",
+              "type": "ImportSpecifier"
+            },
+            {
               "imported": "Footer",
               "local": "Footer",
               "type": "ImportSpecifier"
@@ -13534,23 +13306,27 @@
               "imported": "SelectLang",
               "local": "SelectLang",
               "type": "ImportSpecifier"
-            },
-            {
-              "imported": "AvatarDropdown",
-              "local": "AvatarDropdown",
-              "type": "ImportSpecifier"
-            },
-            {
-              "imported": "AvatarName",
-              "local": "AvatarName",
-              "type": "ImportSpecifier"
             }
           ],
           "start": 1,
           "type": "ImportDeclaration"
         },
         {
-          "end": 140,
+          "end": 171,
+          "importKind": "value",
+          "source": "@/services/ant-design-pro/api",
+          "specifiers": [
+            {
+              "imported": "currentUser",
+              "local": "queryCurrentUser",
+              "type": "ImportSpecifier"
+            }
+          ],
+          "start": 91,
+          "type": "ImportDeclaration"
+        },
+        {
+          "end": 222,
           "importKind": "value",
           "source": "@ant-design/icons",
           "specifiers": [
@@ -13560,11 +13336,11 @@
               "type": "ImportSpecifier"
             }
           ],
-          "start": 91,
+          "start": 173,
           "type": "ImportDeclaration"
         },
         {
-          "end": 219,
+          "end": 301,
           "importKind": "type",
           "source": "@ant-design/pro-components",
           "specifiers": [
@@ -13574,11 +13350,11 @@
               "type": "ImportSpecifier"
             }
           ],
-          "start": 142,
+          "start": 224,
           "type": "ImportDeclaration"
         },
         {
-          "end": 280,
+          "end": 362,
           "importKind": "value",
           "source": "@ant-design/pro-components",
           "specifiers": [
@@ -13588,11 +13364,11 @@
               "type": "ImportSpecifier"
             }
           ],
-          "start": 221,
+          "start": 303,
           "type": "ImportDeclaration"
         },
         {
-          "end": 336,
+          "end": 418,
           "importKind": "type",
           "source": "@umijs/max",
           "specifiers": [
@@ -13602,11 +13378,11 @@
               "type": "ImportSpecifier"
             }
           ],
-          "start": 282,
+          "start": 364,
           "type": "ImportDeclaration"
         },
         {
-          "end": 381,
+          "end": 463,
           "importKind": "value",
           "source": "@umijs/max",
           "specifiers": [
@@ -13621,65 +13397,11 @@
               "type": "ImportSpecifier"
             }
           ],
-          "start": 338,
+          "start": 420,
           "type": "ImportDeclaration"
         },
         {
-          "end": 439,
-          "importKind": "value",
-          "source": "../config/defaultSettings",
-          "specifiers": [
-            {
-              "local": "defaultSettings",
-              "type": "ImportDefaultSpecifier"
-            }
-          ],
-          "start": 383,
-          "type": "ImportDeclaration"
-        },
-        {
-          "end": 492,
-          "importKind": "value",
-          "source": "./requestErrorConfig",
-          "specifiers": [
-            {
-              "imported": "errorConfig",
-              "local": "errorConfig",
-              "type": "ImportSpecifier"
-            }
-          ],
-          "start": 441,
-          "type": "ImportDeclaration"
-        },
-        {
-          "end": 574,
-          "importKind": "value",
-          "source": "@/services/ant-design-pro/api",
-          "specifiers": [
-            {
-              "imported": "currentUser",
-              "local": "queryCurrentUser",
-              "type": "ImportSpecifier"
-            }
-          ],
-          "start": 494,
-          "type": "ImportDeclaration"
-        },
-        {
-          "end": 602,
-          "importKind": "value",
-          "source": "react",
-          "specifiers": [
-            {
-              "local": "React",
-              "type": "ImportDefaultSpecifier"
-            }
-          ],
-          "start": 576,
-          "type": "ImportDeclaration"
-        },
-        {
-          "end": 640,
+          "end": 501,
           "importKind": "value",
           "source": "umi",
           "specifiers": [
@@ -13689,7 +13411,20 @@
               "type": "ImportSpecifier"
             }
           ],
-          "start": 604,
+          "start": 465,
+          "type": "ImportDeclaration"
+        },
+        {
+          "end": 559,
+          "importKind": "value",
+          "source": "../config/defaultSettings",
+          "specifiers": [
+            {
+              "local": "defaultSettings",
+              "type": "ImportDefaultSpecifier"
+            }
+          ],
+          "start": 503,
           "type": "ImportDeclaration"
         }
       ],
@@ -14404,21 +14139,7 @@
           "type": "ImportDeclaration"
         },
         {
-          "end": 230,
-          "importKind": "value",
-          "source": "@umijs/max",
-          "specifiers": [
-            {
-              "imported": "useIntl",
-              "local": "useIntl",
-              "type": "ImportSpecifier"
-            }
-          ],
-          "start": 193,
-          "type": "ImportDeclaration"
-        },
-        {
-          "end": 263,
+          "end": 224,
           "importKind": "value",
           "source": "react",
           "specifiers": [
@@ -14428,7 +14149,7 @@
               "type": "ImportSpecifier"
             }
           ],
-          "start": 232,
+          "start": 193,
           "type": "ImportDeclaration"
         }
       ],
@@ -15066,15 +14787,10 @@
           "type": "ImportDeclaration"
         },
         {
-          "end": 463,
+          "end": 446,
           "importKind": "value",
           "source": "@umijs/max",
           "specifiers": [
-            {
-              "imported": "FormattedMessage",
-              "local": "FormattedMessage",
-              "type": "ImportSpecifier"
-            },
             {
               "imported": "history",
               "local": "history",
@@ -15105,7 +14821,7 @@
           "type": "ImportDeclaration"
         },
         {
-          "end": 509,
+          "end": 492,
           "importKind": "value",
           "source": "antd",
           "specifiers": [
@@ -15125,11 +14841,11 @@
               "type": "ImportSpecifier"
             }
           ],
-          "start": 465,
+          "start": 448,
           "type": "ImportDeclaration"
         },
         {
-          "end": 569,
+          "end": 552,
           "importKind": "value",
           "source": "../../../../config/defaultSettings",
           "specifiers": [
@@ -15138,11 +14854,11 @@
               "type": "ImportDefaultSpecifier"
             }
           ],
-          "start": 511,
+          "start": 494,
           "type": "ImportDeclaration"
         },
         {
-          "end": 611,
+          "end": 594,
           "importKind": "value",
           "source": "react",
           "specifiers": [
@@ -15156,11 +14872,11 @@
               "type": "ImportSpecifier"
             }
           ],
-          "start": 571,
+          "start": 554,
           "type": "ImportDeclaration"
         },
         {
-          "end": 651,
+          "end": 634,
           "importKind": "value",
           "source": "react-dom",
           "specifiers": [
@@ -15170,11 +14886,11 @@
               "type": "ImportSpecifier"
             }
           ],
-          "start": 613,
+          "start": 596,
           "type": "ImportDeclaration"
         },
         {
-          "end": 695,
+          "end": 678,
           "importKind": "value",
           "source": "antd-style",
           "specifiers": [
@@ -15184,7 +14900,7 @@
               "type": "ImportSpecifier"
             }
           ],
-          "start": 653,
+          "start": 636,
           "type": "ImportDeclaration"
         }
       ],
@@ -15250,16 +14966,59 @@
           "type": "ImportDeclaration"
         }
       ],
-      "E:\\Project portfolio\\UserCenter\\Code\\frontedUserCenter\\src\\services\\ant-design-pro\\api.ts": [
+      "E:\\Project portfolio\\UserCenter\\Code\\frontedUserCenter\\src\\plugin\\GlobalRequest.tsx": [
         {
-          "end": 75,
+          "end": 38,
           "importKind": "value",
           "source": "@umijs/max",
           "specifiers": [
             {
-              "imported": "request",
-              "local": "request",
+              "imported": "history",
+              "local": "history",
               "type": "ImportSpecifier"
+            }
+          ],
+          "start": 1,
+          "type": "ImportDeclaration"
+        },
+        {
+          "end": 70,
+          "importKind": "value",
+          "source": "antd",
+          "specifiers": [
+            {
+              "imported": "message",
+              "local": "message",
+              "type": "ImportSpecifier"
+            }
+          ],
+          "start": 40,
+          "type": "ImportDeclaration"
+        },
+        {
+          "end": 109,
+          "importKind": "value",
+          "source": "umi-request",
+          "specifiers": [
+            {
+              "imported": "extend",
+              "local": "extend",
+              "type": "ImportSpecifier"
+            }
+          ],
+          "start": 72,
+          "type": "ImportDeclaration"
+        }
+      ],
+      "E:\\Project portfolio\\UserCenter\\Code\\frontedUserCenter\\src\\services\\ant-design-pro\\api.ts": [
+        {
+          "end": 83,
+          "importKind": "value",
+          "source": "@/plugin/GlobalRequest",
+          "specifiers": [
+            {
+              "local": "request",
+              "type": "ImportDefaultSpecifier"
             }
           ],
           "start": 38,

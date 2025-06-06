@@ -1,6 +1,4 @@
-﻿import component from "@/locales/zh-CN/component";
-import Icon from "@ant-design/icons";
-
+﻿
 /**
  * @name umi 的路由配置
  * @description 只支持 path,component,routes,redirect,wrappers,name,icon 的配置
